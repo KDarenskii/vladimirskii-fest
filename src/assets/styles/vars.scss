@@ -7,8 +7,8 @@ $mobileMiddle: 677px; //телефоны
 $mobileSmall: 479.98px; //телефоны
 
 //<=====Font========>
-$fontFamily: "Philosopher", sans-serif;
-$fontSize: 24px;
+$fontFamily: "Lato", sans-serif;
+$fontSize: 16px;
 
 //<=====Colors========>
 $black: #000;
@@ -16,13 +16,4 @@ $white: #fff;
 $yellow: #ffc93d;
 $green: #72fc05;
 $grey: #d2d2d2;
-
-@mixin greyGrad {
-    background: linear-gradient(
-            180deg,
-            #353535 0%,
-            #343434 52.69%,
-            #282828 100%
-        ),
-        linear-gradient(0deg, #d2d2d2, #d2d2d2);
-}
+$blue: #2e1d67;

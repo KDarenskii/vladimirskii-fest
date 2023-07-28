@@ -1,21 +1,11 @@
-import React from "react";
-import { Outlet } from "react-router-dom";
-import Header from "./Header";
+import React, { PropsWithChildren } from "react";
+import Container from "../Container";
 
-import styles from "./layout.module.scss";
-import PageBorder from "./PageBorder";
-
-const Layout: React.FC = () => {
+const Layout: React.FC<PropsWithChildren> = ({ children }) => {
     return (
-        <div className={styles.layout}>
-            <Header />
-            <PageBorder side="left" />
-            <main className={styles.main}>
-                <Outlet />
-            </main>
-            <PageBorder side="right" />
-            <PageBorder side="bottom" />
-        </div>
+        <main>
+            <Container>{children}</Container>
+        </main>
     );
 };
 

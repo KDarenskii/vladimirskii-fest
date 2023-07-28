@@ -5,7 +5,7 @@ import Layout from "./Layout";
 const Router: React.FC = () => {
     return (
         <Routes>
-            <Route element={<Layout />}></Route>
+            <Route element={<Layout />} />
         </Routes>
     );
 };

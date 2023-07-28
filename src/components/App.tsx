@@ -1,8 +1,8 @@
 import React from "react";
-import Router from "./Router";
+import HomePage from "pages/HomePage";
 
 const App: React.FC = () => {
-    return <Router />;
+    return <HomePage />;
 };
 
 export default App;
