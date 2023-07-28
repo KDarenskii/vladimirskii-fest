@@ -1,0 +1,14 @@
+.layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "left-border main right-border"
+        "bottom-border bottom-border bottom-border";
+    grid-template-rows: 60px 1fr 30px;
+    grid-template-columns: 30px 1fr 30px;
+}
+
+.main {
+    grid-area: "main";
+}
