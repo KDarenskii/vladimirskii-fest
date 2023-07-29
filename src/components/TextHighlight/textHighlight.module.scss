@@ -1,6 +1,12 @@
 @import "../../assets/styles/vars.scss";
 
 .text {
-    color: $red;
-    font-weight: 700;
+    &.dark {
+        color: $black;
+        font-weight: 600;
+    }
+    &.danger {
+        color: $red;
+        font-weight: 700;
+    }
 }

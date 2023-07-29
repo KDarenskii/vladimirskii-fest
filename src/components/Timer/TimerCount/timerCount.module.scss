@@ -5,13 +5,17 @@
 }
 
 .count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
     font-size: 28px;
     font-weight: 700;
-    padding: 15px;
     color: $white;
-    margin-bottom: 6px;
     border: 1px solid $white;
     border-radius: 15px;
+    margin-bottom: 6px;
 }
 
 .label {

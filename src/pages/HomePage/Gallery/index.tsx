@@ -10,7 +10,7 @@ import styles from "./gallery.module.scss";
 
 const Gallery: FC = () => {
     return (
-        <div style={{ marginTop: "50px" }}>
+        <div className={styles.gallery}>
             <Container>
                 <div className={styles.wrapper}>
                     <img src={imageSrc1} alt="" />

@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 
-import { SectionHeading } from "components/SectionHeading";
+import TextHighlight from "components/TextHighlight";
+import SectionTitle from "components/SectionTtitle";
+import Paragraph from "components/Paragraph";
 import Container from "components/Container";
 import Timer from "components/Timer";
-
-// import introSrc from "assets/img/intro.jpg";
 
 import styles from "./intro.module.scss";
 
@@ -15,15 +15,20 @@ const Intro: FC = () => {
         <section className={styles.intro}>
             <Container>
                 <div className={styles.wrapper}>
-                    <div>
-                        <SectionHeading
-                            title="Фестиваль Владимирский Live"
-                            subtitle="25 - 30 сентября 2023 года"
-                            variant="light"
-                        />
+                    <SectionTitle className={styles.title} variant="light">
+                        Фестиваль Владимирский{" "}
+                        <TextHighlight variant="danger">Live</TextHighlight>
+                    </SectionTitle>
+                    <Paragraph className={styles.text} variant="light">
+                        Территория культуры
+                    </Paragraph>
+                    <Paragraph variant="light">
+                        23 - 25 сентября 2023 года
+                    </Paragraph>
+                    <div className={styles.timerWrapper}>
+                        <p>До начала:</p>
                         <Timer className={styles.timer} date={FEST_DATE} />
                     </div>
-                    {/* <img src={introSrc} alt="Intro" /> */}
                 </div>
             </Container>
         </section>

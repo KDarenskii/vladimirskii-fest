@@ -1,54 +1,61 @@
 import React, { FC } from "react";
 
-import { SectionSubtitle, SectionTitle } from "components/SectionHeading";
 import Container from "components/Container";
 import TextHighlight from "components/TextHighlight";
-
-import artLeftSrc from "assets/img/art-left.jpg";
-import artRightSrc from "assets/img/art-right.jpg";
+import SectionTitle from "components/SectionTtitle";
+import Paragraph from "components/Paragraph";
 
 import styles from "./about.module.scss";
 
 const About: FC = () => {
     return (
-        <section style={{ marginBottom: "100px" }}>
+        <section className={styles.section}>
             <Container>
+                <SectionTitle className={styles.title}>
+                    О Фестивале
+                </SectionTitle>
                 <div className={styles.wrapper}>
                     <div className={styles.info}>
-                        <SectionTitle className={styles.title}>
-                            О Фестивале
-                        </SectionTitle>
-                        <SectionSubtitle className={styles.subtitle}>
-                            Владимирский <TextHighlight>Live</TextHighlight> -
-                            это городской фестиваль и культурное событие,
-                            проводимое ежегодно в городе Владимир, Россия.
-                        </SectionSubtitle>
-                        <SectionSubtitle className={styles.subtitle}>
-                            Фестиваль основан на идее популяризации и поддержки
-                            местных талантов и развития культурного потенциала
-                            города Владимир. Он собирает местных талантов и
-                            приглашает известных артистов из разных регионов
-                            страны и позволяет зрителям получить доступ к
-                            разнообразному искусству и культурным проявлениям,
-                            которые обогащают их опыт и позволяют познакомиться
-                            с новыми творческими направлениями и идеями.
-                        </SectionSubtitle>
-                        <SectionSubtitle>
-                            Впервые фестиваль был организован в 2010 году и с
-                            тех пор стал одним из самых значимых культурных
-                            событий в регионе.
-                        </SectionSubtitle>
+                        <div>
+                            <Paragraph className={styles.subtitle}>
+                                <TextHighlight>Владимирский</TextHighlight>{" "}
+                                <TextHighlight variant="danger">
+                                    Live
+                                </TextHighlight>{" "}
+                                - это городской фестиваль и культурное событие,
+                                проводимое ежегодно в городе Владимир, Россия.
+                            </Paragraph>
+                            <Paragraph className={styles.subtitle}>
+                                Фестиваль основан на идее популяризации и
+                                поддержки местных талантов и развития
+                                культурного потенциала города Владимир. Он
+                                собирает местных талантов и приглашает известных
+                                артистов из разных регионов страны и позволяет
+                                зрителям получить доступ к разнообразному
+                                искусству и культурным проявлениям, которые
+                                обогащают их опыт и позволяют познакомиться с
+                                новыми творческими направлениями и идеями.
+                            </Paragraph>
+                            <Paragraph>
+                                Впервые фестиваль был организован{" "}
+                                <TextHighlight>в 2010 году</TextHighlight> и с
+                                тех пор{" "}
+                                <TextHighlight>
+                                    стал одним из самых значимых
+                                </TextHighlight>{" "}
+                                культурных событий в регионе.
+                            </Paragraph>
+                        </div>
                     </div>
-                    <div className={styles.imgWrapper}>
-                        <img
-                            className={styles.imgLeft}
-                            src={artLeftSrc}
-                            alt="Art"
-                        />
-                        <img
-                            className={styles.imgRight}
-                            src={artRightSrc}
-                            alt="Art"
+                    <div className={styles.videoWrapper}>
+                        <iframe
+                            className={styles.video}
+                            title="Introduction video"
+                            src="https://vk.com/video_ext.php?oid=-34825534&id=456239233&hd=1&autoplay=1"
+                            width="640"
+                            height="360"
+                            allow="autoplay; encrypted-media; fullscreen; picture-in-picture;"
+                            allowFullScreen
                         />
                     </div>
                 </div>

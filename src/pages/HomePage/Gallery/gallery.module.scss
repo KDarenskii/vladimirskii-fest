@@ -1,9 +1,13 @@
+.gallery {
+    padding: 20px 0 0;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(300px, 400px);
     gap: 5px;
-    border-radius: 100px;
+    border-radius: 60px;
     overflow: hidden;
     img {
         height: 100%;

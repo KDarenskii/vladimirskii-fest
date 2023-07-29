@@ -1,31 +1,46 @@
-import Container from "components/Container";
-import { SectionSubtitle, SectionTitle } from "components/SectionHeading";
 import React, { FC } from "react";
+
+import Container from "components/Container";
+import SectionTitle from "components/SectionTtitle";
+import Paragraph from "components/Paragraph";
+import TextHighlight from "components/TextHighlight";
 
 import styles from "./influence.module.scss";
 
 const Influence: FC = () => {
     return (
-        <section style={{ marginTop: "70px" }}>
+        <section className={styles.section}>
             <Container>
                 <SectionTitle className={styles.title}>
                     Фестиваль - мощный форум для обмена опытом между артистами.
                 </SectionTitle>
                 <div className={styles.info}>
-                    <SectionSubtitle className={styles.subtitle}>
-                        &quot;Владимирский Live&quot; играет значительную роль в
-                        развитии культурной сферы города Владимир и привлечении
-                        внимания к творческому потенциалу региона.
-                    </SectionSubtitle>
-                    <SectionSubtitle className={styles.subtitle}>
-                        Фестиваль продолжает развиваться и привлекать все больше
-                        талантов и поклонников искусства из года в год.
-                    </SectionSubtitle>
-                    <SectionSubtitle>
-                        Организаторы фестиваля стремятся укрепить сотрудничество
+                    <Paragraph className={styles.text}>
+                        <TextHighlight>&quot;Владимирский</TextHighlight>{" "}
+                        <TextHighlight variant="danger">Live</TextHighlight>
+                        &quot;{" "}
+                        <TextHighlight>
+                            играет значительную роль
+                        </TextHighlight>{" "}
+                        в развитии культурной сферы города Владимир и
+                        привлечении внимания к творческому потенциалу региона.
+                    </Paragraph>
+                    <Paragraph className={styles.text}>
+                        Фестиваль{" "}
+                        <TextHighlight>
+                            продолжает развиваться и привлекать все больше
+                            талантов и поклонников
+                        </TextHighlight>{" "}
+                        искусства из года в год.
+                    </Paragraph>
+                    <Paragraph className={styles.text}>
+                        Организаторы фестиваля{" "}
+                        <TextHighlight>
+                            стремятся укрепить сотрудничество
+                        </TextHighlight>{" "}
                         с другими культурными событиями и фестивалями в России и
                         за ее пределами.
-                    </SectionSubtitle>
+                    </Paragraph>
                 </div>
             </Container>
         </section>

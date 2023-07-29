@@ -1,5 +1,9 @@
 @import "../../../assets/styles/vars.scss";
 
+.section {
+    padding: 40px 0 45px;
+}
+
 .slide {
     border-radius: 30px;
     overflow: hidden;
@@ -15,11 +19,11 @@
 }
 
 .dots {
-    bottom: -32px;
+    bottom: -45px;
     li {
         button {
             &::before {
-                font-size: 14px;
+                font-size: 16px;
             }
         }
     }

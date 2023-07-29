@@ -1,32 +1,38 @@
 @import "../../../assets/styles/vars.scss";
 
 .intro {
-    // height: 100vh;
-    padding-top: 20px;
-    background: linear-gradient(
-        247.11deg,
-        #e3e7f6 3.56%,
-        rgba(227, 231, 246, 0) 115.17%
-    );
-    margin-bottom: 40px;
+    text-align: center;
+    padding: 80px 0;
+    background: url("../../../assets/img/jest2.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 20px;
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 40px 50px;
     background-color: $blue;
     overflow: hidden;
-    // img {
-    //     height: 500px;
-    //     width: 60%;
-    //     max-width: 100%;
-    //     border-radius: 0 10px 10px 0;
-    //     display: block;
-    // }
+}
+
+.timerWrapper {
+    margin-top: 20px;
+    p {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
 }
 
 .timer {
     margin-top: 20px;
+    margin: 20px auto;
+    justify-content: center;
 }
