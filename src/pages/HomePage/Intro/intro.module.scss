@@ -1,13 +1,14 @@
 @import "../../../assets/styles/vars.scss";
 
 .intro {
-    height: 100vh;
+    // height: 100vh;
     padding-top: 20px;
     background: linear-gradient(
         247.11deg,
         #e3e7f6 3.56%,
         rgba(227, 231, 246, 0) 115.17%
     );
+    margin-bottom: 40px;
 }
 
 .wrapper {
