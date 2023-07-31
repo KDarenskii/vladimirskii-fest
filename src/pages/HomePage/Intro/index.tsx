@@ -12,22 +12,30 @@ const FEST_DATE = new Date(2023, 8, 25, 15, 0, 0);
 
 const Intro: FC = () => {
     return (
-        <section className={styles.intro}>
+        <section className={styles.section}>
             <Container>
                 <div className={styles.wrapper}>
                     <SectionTitle className={styles.title} variant="light">
-                        Фестиваль Владимирский{" "}
-                        <TextHighlight variant="danger">Live</TextHighlight>
+                        Фестиваль{" "}
+                        <span className={styles.noWrapText}>
+                            Владимирский{" "}
+                            <TextHighlight variant="danger">Live</TextHighlight>
+                        </span>{" "}
                     </SectionTitle>
                     <Paragraph className={styles.text} variant="light">
                         Территория культуры
                     </Paragraph>
-                    <Paragraph variant="light">
+                    <Paragraph className={styles.text} variant="light">
                         23 - 25 сентября 2023 года
                     </Paragraph>
                     <div className={styles.timerWrapper}>
                         <p>До начала:</p>
-                        <Timer className={styles.timer} date={FEST_DATE} />
+                        <Timer
+                            className={styles.timer}
+                            countClassName={styles.timeCounter}
+                            labelClassName={styles.timeLabel}
+                            date={FEST_DATE}
+                        />
                     </div>
                 </div>
             </Container>

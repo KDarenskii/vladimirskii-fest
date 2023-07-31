@@ -1,5 +1,7 @@
+$containerWidth: 1480px;
+
 //<====Breakpoints=====>
-$pcBig: 1440px; //большие мониторы
+$pcBig: 1480px; //большие мониторы
 $pc: 1170px; //пк и ноутбуки
 $tablet: 991.98px; //планшеты
 $mobile: 767.96px; //телефоны
@@ -18,3 +20,40 @@ $green: #72fc05;
 $grey: #d2d2d2;
 $blue: #2e1d67;
 $red: red;
+
+// <====Media queries====>
+@mixin pcBig {
+    @media (max-width: $pcBig) {
+        @content;
+    }
+}
+
+@mixin pc {
+    @media (max-width: $pc) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+@mixin mobileMiddle {
+    @media (max-width: $mobileMiddle) {
+        @content;
+    }
+}
+
+@mixin mobileSmall {
+    @media (max-width: $mobileSmall) {
+        @content;
+    }
+}

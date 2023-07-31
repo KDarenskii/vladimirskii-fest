@@ -14,7 +14,7 @@ const Influence: FC = () => {
                 <SectionTitle className={styles.title}>
                     Фестиваль - мощный форум для обмена опытом между артистами.
                 </SectionTitle>
-                <div className={styles.info}>
+                <div className={styles.description}>
                     <Paragraph className={styles.text}>
                         <TextHighlight>&quot;Владимирский</TextHighlight>{" "}
                         <TextHighlight variant="danger">Live</TextHighlight>

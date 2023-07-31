@@ -4,10 +4,28 @@
     width: 100%;
     padding: 60px 0;
     background-color: $blue;
+    @include mobileMiddle {
+        padding: 30px 0;
+    }
 }
 
 .title {
     margin-bottom: 40px;
+    @include pc {
+        font-size: 40px;
+    }
+    @include tablet {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    @include mobileMiddle {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    @include mobileSmall {
+        font-size: 22px;
+        text-align: center;
+    }
 }
 
 .artList {
@@ -15,11 +33,31 @@
     column-gap: 15px;
     row-gap: 30px;
     flex-wrap: wrap;
+    @include mobile {
+        column-gap: 10px;
+        row-gap: 24px;
+    }
+    @include mobileSmall {
+        justify-content: center;
+        row-gap: 16px;
+    }
     li {
         font-size: 24px;
         font-weight: 600;
         border: 2px solid $white;
         border-radius: 100px;
         padding: 20px 38px;
+        @include pc {
+            font-size: 21px;
+            padding: 18px 31px;
+        }
+        @include mobile {
+            font-size: 16px;
+            padding: 14px 20px;
+        }
+        @include mobileSmall {
+            font-size: 15px;
+            padding: 14px 22px;
+        }
     }
 }

@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import Slider, { Settings } from "react-slick";
 
+import Slider from "components/Slider";
 import Container from "components/Container";
 
 import slideSrc1 from "assets/img/gallerySlider/slide-1.jpg";
@@ -12,43 +12,25 @@ import slideSrc6 from "assets/img/gallerySlider/slide-6.jpg";
 
 import styles from "./gallerySlider.module.scss";
 
-const SLIDER_SETTINGS: Settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    arrows: false,
-    dotsClass: `slick-dots ${styles.dots}`,
-};
+const slides = [
+    { slide: <img src={slideSrc1} alt="" />, key: 1 },
+    { slide: <img src={slideSrc2} alt="" />, key: 2 },
+    { slide: <img src={slideSrc3} alt="" />, key: 3 },
+    { slide: <img src={slideSrc4} alt="" />, key: 4 },
+    { slide: <img src={slideSrc5} alt="" />, key: 5 },
+    { slide: <img src={slideSrc6} alt="" />, key: 6 },
+];
 
 const GallerySlider: FC = () => {
     return (
         <section className={styles.section}>
             <h6 className="visually-hidden">Галерея</h6>
             <Container>
-                <Slider {...SLIDER_SETTINGS}>
-                    <div className={styles.slide}>
-                        <img src={slideSrc1} alt="" />
-                    </div>
-                    <div className={styles.slide}>
-                        <img src={slideSrc2} alt="" />
-                    </div>
-                    <div className={styles.slide}>
-                        <img src={slideSrc3} alt="" />
-                    </div>
-                    <div className={styles.slide}>
-                        <img src={slideSrc4} alt="" />
-                    </div>
-                    <div className={styles.slide}>
-                        <img src={slideSrc5} alt="" />
-                    </div>
-                    <div className={styles.slide}>
-                        <img src={slideSrc6} alt="" />
-                    </div>
-                </Slider>
+                <Slider
+                    slideClassName={styles.slide}
+                    settings={{ dotsClass: styles.dots }}
+                    slides={slides}
+                />
             </Container>
         </section>
     );

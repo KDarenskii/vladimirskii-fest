@@ -1,6 +1,14 @@
+@import "../../assets/styles/vars.scss";
+
 .container {
-    max-width: 1480px;
+    max-width: $containerWidth;
     width: 100%;
     margin: 0 auto;
     padding: 0 100px;
+    @include pcBig {
+        padding: 0 50px;
+    }
+    @include pc {
+        padding: 0 20px;
+    }
 }
