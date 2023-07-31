@@ -8,7 +8,7 @@ import Timer from "components/Timer";
 
 import styles from "./intro.module.scss";
 
-const FEST_DATE = new Date(2023, 8, 25, 15, 0, 0);
+const FEST_DATE = new Date(2023, 6, 31, 22, 33, 0);
 
 const Intro: FC = () => {
     return (
@@ -26,7 +26,7 @@ const Intro: FC = () => {
                         Территория культуры
                     </Paragraph>
                     <Paragraph className={styles.text} variant="light">
-                        23 - 25 сентября 2023 года
+                        17 - 19 сентября 2023 года
                     </Paragraph>
                     <div className={styles.timerWrapper}>
                         <p>До начала:</p>

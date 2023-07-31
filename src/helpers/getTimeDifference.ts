@@ -1,23 +1,29 @@
-const getTimerDifference = (date: Date) => {
+interface ITimeDifference {
+    days: string;
+    hours: string;
+    minutes: string;
+    seconds: string;
+}
+
+const getTimerDifference = (date: Date): ITimeDifference => {
     const dateMs = date.getTime();
-    // console.log(`Fest date: ${dateMs}`);
     const currTimeMs = new Date().getTime();
-    // console.log(`Now: ${currTimeMs}`);
 
     const timeDifferenceMs = dateMs - currTimeMs;
-    // console.log(`Time difference: ${timeDifferenceMs}`);
 
-    // console.log("");
+    if (timeDifferenceMs < 0) {
+        return {
+            days: "00",
+            hours: "00",
+            minutes: "00",
+            seconds: "00",
+        };
+    }
 
     const days = Math.floor((timeDifferenceMs / (1000 * 60 * 60 * 24)) % 365);
     const hours = Math.floor((timeDifferenceMs / (1000 * 60 * 60)) % 24);
     const minutes = Math.floor((timeDifferenceMs / (1000 * 60)) % 60);
     const seconds = Math.floor((timeDifferenceMs / 1000) % 60);
-
-    // console.log(`Days: ${days}`);
-    // console.log(`Hours: ${hours}`);
-    // console.log(`Minutes: ${minutes}`);
-    // console.log(`Seconds: ${seconds}`);
 
     return {
         days: days < 10 ? `0${days}` : days.toString(),

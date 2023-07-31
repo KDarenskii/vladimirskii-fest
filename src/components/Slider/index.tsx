@@ -4,6 +4,8 @@ import cn from "clsx";
 
 import { ISlide } from "./slide.interface";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import styles from "./slider.module.scss";
 
 const SLIDER_DEFAULT_SETTINGS: Settings = {

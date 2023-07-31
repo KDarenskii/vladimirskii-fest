@@ -10,6 +10,37 @@ const isDev = !isProd;
 const filename = (ext) => (isDev ? `main.${ext}` : `main.[contenthash].${ext}`);
 const assetFilename = () => (isDev ? "[name][ext]" : "[name].[hash][ext]");
 
+function initStyleLoaders(config) {
+    const loaders = [MiniCssExtractPlugin.loader];
+
+    if (config.isModules) {
+        loaders.push({
+            loader: "css-loader",
+            options: {
+                importLoaders: 1,
+                modules: {
+                    localIdentName: "[name]__[local]__[hash:base64:5]",
+                },
+            },
+        });
+    } else {
+        loaders.push("css-loader");
+    }
+
+    loaders.push({
+        loader: "postcss-loader",
+        options: {
+            postcssOptions: { plugins: ["postcss-preset-env"] },
+        },
+    });
+
+    if (config.isPreprocessor) {
+        loaders.push("sass-loader");
+    }
+
+    return loaders;
+}
+
 module.exports = {
     mode: isDev ? "development" : "production",
     devtool: isDev ? "source-map" : undefined,
@@ -37,7 +68,20 @@ module.exports = {
                 use: ["babel-loader"],
             },
             {
-                test: /\.s[ac]ss$/i,
+                test: /\.css$/i,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            postcssOptions: { plugins: ["postcss-preset-env"] },
+                        },
+                    },
+                ],
+            },
+            {
+                test: /\.module\.s[ac]ss$/i,
                 use: [
                     MiniCssExtractPlugin.loader,
                     {
@@ -50,6 +94,21 @@ module.exports = {
                             },
                         },
                     },
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            postcssOptions: { plugins: ["postcss-preset-env"] },
+                        },
+                    },
+                    "sass-loader",
+                ],
+            },
+            {
+                test: /\.s[ac]ss$/i,
+                exclude: /\.module.s[ac]ss$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
                     {
                         loader: "postcss-loader",
                         options: {
@@ -107,5 +166,6 @@ module.exports = {
         client: {
             logging: "error",
         },
+        historyApiFallback: true,
     },
 };
