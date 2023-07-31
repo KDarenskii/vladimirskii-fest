@@ -12153,7 +12153,9 @@ var App = function App() {
 
 
 var root = client.createRoot(document.getElementById("root"));
-root.render( /*#__PURE__*/react.createElement(BrowserRouter, null, /*#__PURE__*/react.createElement(components_App, null)));
+root.render( /*#__PURE__*/react.createElement(BrowserRouter, {
+  basename: "vladimirskii-fest"
+}, /*#__PURE__*/react.createElement(components_App, null)));
 }();
 /******/ })()
 ;
