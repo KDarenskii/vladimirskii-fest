@@ -1,4 +1,5 @@
 import React, { FC, ImgHTMLAttributes, useState } from "react";
+
 import cn from "clsx";
 
 import styles from "./lazeImage.module.scss";

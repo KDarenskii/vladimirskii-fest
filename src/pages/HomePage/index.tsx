@@ -1,12 +1,11 @@
 import React from "react";
 
-import Intro from "./Intro";
 import About from "./About";
 import ArtTypes from "./ArtTypes";
+import Gallery from "./Gallery";
 import GallerySlider from "./GallerySlider";
 import Influence from "./Influence";
-import Gallery from "./Gallery";
-
+import Intro from "./Intro";
 import styles from "./homePage.module.scss";
 
 const HomePage: React.FC = () => {

@@ -1,8 +1,9 @@
 import React, { FC } from "react";
+
 import { Link } from "react-router-dom";
 
-import { HOME_ROUTE } from "components/Router";
 import Paragraph from "components/Paragraph";
+import { HOME_ROUTE } from "components/Router";
 
 import notesSrc from "assets/img/notes.png";
 

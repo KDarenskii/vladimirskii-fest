@@ -1,11 +1,10 @@
 import React, { FC } from "react";
 
-import { Slider } from "components/Slider";
 import Container from "components/Container";
-
-import { slides } from "./gallerySlides.data";
+import { Slider } from "components/Slider";
 
 import styles from "./gallerySlider.module.scss";
+import { slides } from "./gallerySlides.data";
 
 const GallerySlider: FC = () => {
     return (

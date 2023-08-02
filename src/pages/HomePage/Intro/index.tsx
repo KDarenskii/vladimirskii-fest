@@ -1,9 +1,9 @@
 import React, { FC } from "react";
 
-import TextHighlight from "components/TextHighlight";
-import SectionTitle from "components/SectionTtitle";
-import Paragraph from "components/Paragraph";
 import Container from "components/Container";
+import Paragraph from "components/Paragraph";
+import SectionTitle from "components/SectionTtitle";
+import TextHighlight from "components/TextHighlight";
 import Timer from "components/Timer";
 
 import styles from "./intro.module.scss";

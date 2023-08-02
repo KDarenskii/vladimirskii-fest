@@ -1,9 +1,9 @@
 import React, { FC } from "react";
 
 import Container from "components/Container";
-import TextHighlight from "components/TextHighlight";
-import SectionTitle from "components/SectionTtitle";
 import Paragraph from "components/Paragraph";
+import SectionTitle from "components/SectionTtitle";
+import TextHighlight from "components/TextHighlight";
 
 import styles from "./about.module.scss";
 

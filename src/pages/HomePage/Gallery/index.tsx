@@ -1,11 +1,10 @@
-import Container from "components/Container";
 import React, { FC } from "react";
 
+import Container from "components/Container";
 import LazyImage from "components/LazyImage";
 
-import { images } from "./galleryImages.data";
-
 import styles from "./gallery.module.scss";
+import { images } from "./galleryImages.data";
 
 const Gallery: FC = () => {
     return (

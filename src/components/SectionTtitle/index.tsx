@@ -1,4 +1,5 @@
 import React, { FC, PropsWithChildren } from "react";
+
 import cn from "clsx";
 
 import styles from "./title.module.scss";

@@ -1,10 +1,10 @@
 import React, { FC } from "react";
+
 import cn from "clsx";
 
 import TimerCount from "./TimerCount";
-import useTimer from "./useTimer";
-
 import styles from "./timer.module.scss";
+import useTimer from "./useTimer";
 
 interface Props {
     className?: string;
