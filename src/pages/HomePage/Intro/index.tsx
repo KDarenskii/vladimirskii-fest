@@ -8,7 +8,7 @@ import Timer from "components/Timer";
 
 import styles from "./intro.module.scss";
 
-const FEST_DATE = new Date(2023, 6, 31, 22, 33, 0);
+const FEST_DATE = new Date(2023, 8, 15, 10, 0, 0);
 
 const Intro: FC = () => {
     return (
