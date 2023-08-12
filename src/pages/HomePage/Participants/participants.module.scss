@@ -1,0 +1,12 @@
+@import "../../../assets/styles/vars.scss";
+
+.section {
+    padding: 50px 0;
+    @include tablet {
+        padding: 30px 0;
+    }
+}
+
+.wrapper:first-child {
+    margin-bottom: 20px;
+}

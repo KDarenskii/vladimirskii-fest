@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 import Container from "components/Container";
 import Paragraph from "components/Paragraph";
-import SectionTitle from "components/SectionTtitle";
+import SectionTitle from "components/SectionTitle";
 import TextHighlight from "components/TextHighlight";
 import Timer from "components/Timer";
 
@@ -26,7 +26,7 @@ const Intro: FC = () => {
                         Территория культуры
                     </Paragraph>
                     <Paragraph className={styles.text} variant="light">
-                        17 - 19 сентября 2023 года
+                        15 - 17 сентября 2023 года
                     </Paragraph>
                     <div className={styles.timerWrapper}>
                         <p>До начала:</p>

@@ -1,0 +1,76 @@
+@import "../../../assets/styles/vars.scss";
+
+.section {
+    padding: 20px 0 0;
+    @include mobile {
+        padding-top: 10px;
+    }
+}
+
+.container {
+    @include pc {
+        padding: 0;
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    border-radius: 60px;
+    overflow: hidden;
+    @include pc {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        border-radius: 0;
+        gap: 0;
+    }
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        @include pc {
+            max-height: 600px;
+        }
+    }
+}
+
+.textWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: $purple;
+    @include pc {
+        &:last-child {
+            grid-row: 3;
+        }
+        padding: 70px 40px;
+    }
+    @include tablet {
+        padding: 50px 30px;
+    }
+    @include mobile {
+        padding: 30px 20px;
+    }
+}
+
+.text {
+    font-weight: 600;
+    text-align: center;
+    font-size: 19px;
+    @include pc {
+        font-size: 27px;
+    }
+    @include tablet {
+        font-size: 25px;
+    }
+    @include mobile {
+        font-size: 22px;
+    }
+    @include mobileMiddle {
+        font-size: 20px;
+    }
+}

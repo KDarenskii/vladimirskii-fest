@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 import Container from "components/Container";
-import SectionTitle from "components/SectionTtitle";
+import SectionTitle from "components/SectionTitle";
 
 import styles from "./artTypes.module.scss";
 

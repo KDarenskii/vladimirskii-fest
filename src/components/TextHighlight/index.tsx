@@ -5,7 +5,7 @@ import cn from "clsx";
 import styles from "./textHighlight.module.scss";
 
 interface Props {
-    variant?: "danger" | "dark";
+    variant?: "danger" | "dark" | "info";
 }
 
 const TextHighlight: FC<PropsWithChildren<Props>> = ({

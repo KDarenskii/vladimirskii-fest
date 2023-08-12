@@ -2,22 +2,25 @@ import React from "react";
 
 import About from "./About";
 import ArtTypes from "./ArtTypes";
-import Gallery from "./Gallery";
+import Gallery from "./Description";
 import GallerySlider from "./GallerySlider";
 import Influence from "./Influence";
 import Intro from "./Intro";
-import styles from "./homePage.module.scss";
+import Participants from "./Participants";
+import Quote from "./Quote";
 
 const HomePage: React.FC = () => {
     return (
-        <main className={styles.page}>
+        <>
             <Intro />
             <About />
             <ArtTypes />
             <GallerySlider />
             <Influence />
             <Gallery />
-        </main>
+            <Quote />
+            <Participants />
+        </>
     );
 };
 

@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 import Container from "components/Container";
 import Paragraph from "components/Paragraph";
-import SectionTitle from "components/SectionTtitle";
+import SectionTitle from "components/SectionTitle";
 import TextHighlight from "components/TextHighlight";
 
 import styles from "./influence.module.scss";
@@ -12,7 +12,9 @@ const Influence: FC = () => {
         <section className={styles.section}>
             <Container>
                 <SectionTitle className={styles.title}>
-                    Фестиваль - мощный форум для обмена опытом между артистами.
+                    Фестиваль не имеет аналогов – это первый опыт объединения
+                    театров, музеев, библиотек, которые находятся на территории
+                    муниципального округа.
                 </SectionTitle>
                 <div className={styles.description}>
                     <Paragraph className={styles.text}>
@@ -29,9 +31,10 @@ const Influence: FC = () => {
                         Фестиваль{" "}
                         <TextHighlight>
                             продолжает развиваться и привлекать все больше
-                            талантов и поклонников
+                            участников
                         </TextHighlight>{" "}
-                        искусства из года в год.
+                        — в 2023 году в мероприятиях участвует больше 30
+                        культурных организаций.
                     </Paragraph>
                     <Paragraph className={styles.text}>
                         Организаторы фестиваля{" "}

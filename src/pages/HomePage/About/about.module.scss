@@ -43,6 +43,13 @@
     @include mobileSmall {
         font-size: 14px;
     }
+    a {
+        color: $lightBlue;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .videoContainer {

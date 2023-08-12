@@ -1,0 +1,99 @@
+@import "../../../assets/styles/vars.scss";
+
+.section {
+    padding: 40px 0;
+}
+
+.container {
+    @include mobileMiddle {
+        padding: 0;
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(200px, 400px) 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 50px;
+    background-color: $blue;
+    border-radius: 50px;
+    @include pcBig {
+        padding: 30px 40px;
+    }
+    @include pc {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 30px 80px;
+    }
+    @include tablet {
+        padding: 30px 20px;
+        gap: 10px;
+    }
+    @include mobileMiddle {
+        border-radius: 0;
+    }
+}
+
+.author {
+    width: 100%;
+    text-align: center;
+    img {
+        display: block;
+        max-width: 100%;
+        border-radius: 100%;
+        max-height: 400px;
+        margin: 0 auto 10px;
+        @include pc {
+            max-height: 300px;
+        }
+        @include mobile {
+            max-height: 230px;
+        }
+    }
+    h5 {
+        font-weight: 600;
+        font-size: 17px;
+        color: $white;
+        margin-bottom: 2px;
+        @include mobile {
+            font-size: 16px;
+        }
+    }
+    p {
+        font-weight: 600;
+        font-size: 19px;
+        color: $white;
+        @include mobile {
+            font-size: 18px;
+        }
+    }
+}
+
+.content {
+    blockquote {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 1.2;
+        @media (max-width: 1300px) {
+            font-size: 19px;
+        }
+        @include tablet {
+            font-size: 18px;
+        }
+        @include mobile {
+            font-size: 17px;
+        }
+        @include mobileMiddle {
+            font-size: 16px;
+        }
+        @include mobileSmall {
+            font-size: 15px;
+        }
+    }
+}
+
+.moreBtn {
+    margin: 15px auto 0;
+}
