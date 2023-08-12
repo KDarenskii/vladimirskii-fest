@@ -11,7 +11,7 @@ const Participants: FC = () => {
         <section className={styles.section}>
             <Container>
                 <div className={styles.wrapper}>
-                    <Paragraph>
+                    <Paragraph className={styles.participants}>
                         <TextHighlight variant="dark">
                             Участники фестиваля в 2022 году:
                         </TextHighlight>{" "}
@@ -31,7 +31,7 @@ const Participants: FC = () => {
                     </Paragraph>
                 </div>
                 <div className={styles.wrapper}>
-                    <Paragraph>
+                    <Paragraph className={styles.participants}>
                         <TextHighlight variant="dark">
                             Участники фестиваля в 2023 году:
                         </TextHighlight>{" "}

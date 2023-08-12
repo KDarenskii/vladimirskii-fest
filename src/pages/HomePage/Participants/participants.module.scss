@@ -10,3 +10,12 @@
 .wrapper:first-child {
     margin-bottom: 20px;
 }
+
+.participants {
+    @include mobile {
+        font-size: 16px;
+    }
+    @include mobileMiddle {
+        font-size: 14px;
+    }
+}

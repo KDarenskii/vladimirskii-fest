@@ -1,0 +1,60 @@
+@import "../../../assets/styles/vars.scss";
+
+.mediaItem {
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: $blue;
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+    &:hover {
+        background-color: rgba($blue, 0.9);
+        transform: translateY(-3px);
+        .iconContainer img {
+            transform: rotate(-45deg);
+        }
+    }
+    a {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 15px 20px;
+    }
+    h6 {
+        font-size: 15px;
+        color: $white;
+        font-weight: 500;
+        margin-bottom: 15px;
+        @include tablet {
+            font-size: 14px;
+        }
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: auto;
+    p {
+        color: $white;
+        font-size: 14px;
+        text-align: right;
+    }
+}
+
+.iconContainer {
+    padding: 5px;
+    border-radius: 100%;
+    border: 1px solid $white;
+    margin-left: auto;
+    transform: rotate(45deg);
+    img {
+        display: block;
+        width: 15px;
+        height: 15px;
+        transition: transform 0.2s ease;
+    }
+}

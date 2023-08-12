@@ -6,6 +6,7 @@ import Gallery from "./Description";
 import GallerySlider from "./GallerySlider";
 import Influence from "./Influence";
 import Intro from "./Intro";
+import Media from "./Media";
 import Participants from "./Participants";
 import Quote from "./Quote";
 
@@ -17,9 +18,10 @@ const HomePage: React.FC = () => {
             <ArtTypes />
             <GallerySlider />
             <Influence />
-            <Gallery />
             <Quote />
+            <Gallery />
             <Participants />
+            <Media />
         </>
     );
 };

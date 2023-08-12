@@ -12,6 +12,20 @@
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;
+    @include tablet {
+        font-size: 33px;
+    }
+    @include mobile {
+        font-size: 29px;
+    }
+    @include mobileMiddle {
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+    @include mobileSmall {
+        font-size: 18px;
+    }
     &::after {
         content: "";
         width: 300px;
@@ -28,15 +42,6 @@
             width: 150px;
         }
     }
-    @include tablet {
-        font-size: 39px;
-    }
-    @include mobileMiddle {
-        font-size: 31px;
-    }
-    @include mobileSmall {
-        font-size: 24px;
-    }
 }
 
 .description {
@@ -51,7 +56,10 @@
     &:not(:last-child) {
         margin-bottom: 15px;
     }
+    @include mobile {
+        font-size: 16px;
+    }
     @include mobileSmall {
-        font-size: 18px;
+        font-size: 14px;
     }
 }

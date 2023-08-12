@@ -1,0 +1,32 @@
+@import "../../../assets/styles/vars.scss";
+
+.section {
+    padding: 40px 0;
+}
+
+.title {
+    margin-bottom: 40px;
+    @include mobile {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+}
+
+.mediaList {
+    @include pc {
+        gap: 15px;
+    }
+    @include tablet {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include mobile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include mobileSmall {
+        grid-template-columns: 1fr;
+    }
+}
+
+.moreBtn {
+    margin: 20px auto 0;
+}
