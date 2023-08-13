@@ -2,7 +2,7 @@ import React from "react";
 
 import About from "./About";
 import ArtTypes from "./ArtTypes";
-import Gallery from "./Description";
+import Description from "./Description";
 import GallerySlider from "./GallerySlider";
 import Influence from "./Influence";
 import Intro from "./Intro";
@@ -19,8 +19,8 @@ const HomePage: React.FC = () => {
             <GallerySlider />
             <Influence />
             <Quote />
-            <Gallery />
             <Participants />
+            <Description />
             <Media />
         </>
     );

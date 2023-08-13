@@ -1,7 +1,10 @@
 @import "../../../assets/styles/vars.scss";
 
 .section {
-    padding: 40px 0;
+    padding-top: 50px;
+    @include mobile {
+        padding-top: 30px;
+    }
 }
 
 .title {
