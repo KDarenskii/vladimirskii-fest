@@ -21,8 +21,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, "src", "index.html"),
             filename: "index.html",
-            // publicPath: "/vladimirskii-fest/",
-            publicPath: "/",
+            publicPath: "/vladimirskii-fest/",
+            // publicPath: "/",
         }),
         new MiniCssExtractPlugin({
             filename: `static/css/${getFilename("css")}`,

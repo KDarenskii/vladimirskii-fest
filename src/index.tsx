@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/vladimirskii-fest">
         <App />
     </BrowserRouter>,
 );
