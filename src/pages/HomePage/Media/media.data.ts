@@ -105,8 +105,4 @@ export const mediaData: IMedia[] = [
         title: "Концерт ДШИ им. П. А. Серебрякова в рамках фестиваля «Владимирский Live. Территория культуры».",
         link: "https://afisha7.ru/sankt-peterbyrg/koncerty/2244859mk",
     },
-    {
-        title: 'Пресс-конференция на тему: "Фестиваль "Владимирский Live. Территория культуры"',
-        link: "http://www.forsmi.ru/announce/394547/",
-    },
 ];

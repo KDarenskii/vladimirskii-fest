@@ -1,0 +1,53 @@
+@import "../../../../assets/styles/vars.scss";
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 64px 15px 20px;
+    background-color: $blue;
+    overflow: auto;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    &.active {
+        opacity: 1;
+    }
+    &::before {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 64px;
+        background-color: $white;
+    }
+}
+
+.navList {
+    flex-direction: column;
+    gap: 0;
+}
+
+.navItem {
+    width: 100%;
+    text-align: center;
+}
+
+.navLink {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 23px;
+    color: $white;
+    text-align: center;
+    @include mobileSmall {
+        font-size: 21px;
+    }
+}
+
+.mobileSocial {
+    margin-top: 10px;
+}

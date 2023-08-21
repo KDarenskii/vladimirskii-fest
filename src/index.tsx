@@ -12,7 +12,11 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-    <BrowserRouter basename="/vladimirskii-fest">
+    <BrowserRouter
+        basename={
+            process.env.NODE_ENV === "production" ? "/vladimirskii-fest" : "/"
+        }
+    >
         <App />
     </BrowserRouter>,
 );

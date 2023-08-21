@@ -9,7 +9,7 @@ import styles from "./about.module.scss";
 
 const About: FC = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="about">
             <Container>
                 <SectionTitle className={styles.title}>
                     О Фестивале

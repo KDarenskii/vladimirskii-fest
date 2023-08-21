@@ -6,6 +6,7 @@ interface MatchMedia {
     isMobile: boolean;
     isMobileMiddle: boolean;
     isMobileSmall: boolean;
+    maxMobile: boolean;
 }
 
 const initialMatchMedia: MatchMedia = {
@@ -14,6 +15,7 @@ const initialMatchMedia: MatchMedia = {
     isMobile: false,
     isMobileMiddle: false,
     isMobileSmall: false,
+    maxMobile: false,
 };
 
 const queries = [
@@ -55,6 +57,10 @@ const useMatchMedia = (): MatchMedia => {
         }),
         initialMatchMedia,
     );
+
+    if (result.isMobile || result.isMobileMiddle || result.isMobileSmall) {
+        result.maxMobile = true;
+    }
 
     return result;
 };

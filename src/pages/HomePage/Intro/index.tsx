@@ -6,14 +6,17 @@ import SectionTitle from "components/SectionTitle";
 import TextHighlight from "components/TextHighlight";
 import Timer from "components/Timer";
 
+import coverSrc from "assets/img/fest-cover-small.jpg";
+
 import styles from "./intro.module.scss";
 
 const FEST_DATE = new Date(2023, 8, 15, 10, 0, 0);
 
 const Intro: FC = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="main">
             <Container>
+                {/* <CoverImage /> */}
                 <div className={styles.wrapper}>
                     <SectionTitle className={styles.title} variant="light">
                         Фестиваль{" "}
@@ -28,15 +31,7 @@ const Intro: FC = () => {
                     <Paragraph className={styles.text} variant="light">
                         15 - 17 сентября 2023 года
                     </Paragraph>
-                    <div className={styles.timerWrapper}>
-                        <p>До начала:</p>
-                        <Timer
-                            className={styles.timer}
-                            countClassName={styles.timeCounter}
-                            labelClassName={styles.timeLabel}
-                            date={FEST_DATE}
-                        />
-                    </div>
+                    <TimerBlock />
                 </div>
             </Container>
         </section>
@@ -44,3 +39,25 @@ const Intro: FC = () => {
 };
 
 export default Intro;
+
+function CoverImage() {
+    return (
+        <div className={styles.imageWrapper}>
+            <img src={coverSrc} alt="Фестиваль" />
+        </div>
+    );
+}
+
+function TimerBlock() {
+    return (
+        <div className={styles.timerWrapper}>
+            <p>До начала:</p>
+            <Timer
+                className={styles.timer}
+                countClassName={styles.timeCounter}
+                labelClassName={styles.timeLabel}
+                date={FEST_DATE}
+            />
+        </div>
+    );
+}

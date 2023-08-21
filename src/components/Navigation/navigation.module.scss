@@ -1,0 +1,44 @@
+@import "../../assets/styles/vars.scss";
+
+.navList {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navLink {
+    position: relative;
+    padding: 5px;
+    font-size: 18px;
+    color: $black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    @include tablet {
+        font-size: 16px;
+    }
+    &:hover {
+        color: $lightBlue;
+        @include mobile {
+            color: $white;
+        }
+        &::after {
+            width: 92%;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        border-radius: 10px;
+        background-color: $lightBlue;
+        transition: width 0.3s ease-out;
+        @include mobile {
+            content: none;
+        }
+    }
+}

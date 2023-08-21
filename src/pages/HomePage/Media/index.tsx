@@ -20,7 +20,7 @@ const Media: FC = () => {
         : mediaData.slice(0, DEFAULT_LIST_LENGTH);
 
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="news">
             <Container>
                 <SectionTitle className={styles.title}>
                     СМИ о фестивале

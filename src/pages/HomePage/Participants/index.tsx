@@ -8,7 +8,7 @@ import styles from "./participants.module.scss";
 
 const Participants: FC = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="participants">
             <Container>
                 <div className={styles.wrapper}>
                     <Paragraph className={styles.participants}>
