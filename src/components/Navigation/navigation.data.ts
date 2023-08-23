@@ -1,7 +1,8 @@
 interface INavLink {
     id: number;
     title: string;
-    sectionHref: string;
+    sectionHref?: string;
+    href?: string;
 }
 
 export const navLinks: INavLink[] = [
@@ -18,7 +19,7 @@ export const navLinks: INavLink[] = [
     {
         id: 3,
         title: "Программа",
-        sectionHref: "program",
+        href: "https://vk.com/wall-34825534_20992",
     },
     {
         id: 4,
@@ -29,5 +30,10 @@ export const navLinks: INavLink[] = [
         id: 5,
         title: "Новости",
         sectionHref: "news",
+    },
+    {
+        id: 6,
+        title: "Стань волонтером",
+        href: "https://dobro.ru/event/10230426",
     },
 ];

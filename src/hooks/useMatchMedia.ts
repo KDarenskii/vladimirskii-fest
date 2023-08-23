@@ -58,7 +58,12 @@ const useMatchMedia = (): MatchMedia => {
         initialMatchMedia,
     );
 
-    if (result.isMobile || result.isMobileMiddle || result.isMobileSmall) {
+    if (
+        result.isMobile ||
+        result.isMobileMiddle ||
+        result.isMobileSmall ||
+        result.isTablet
+    ) {
         result.maxMobile = true;
     }
 

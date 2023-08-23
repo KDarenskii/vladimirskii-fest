@@ -1,32 +1,42 @@
 @import "../../../assets/styles/vars.scss";
 
 .section {
-    text-align: center;
-    padding: 80px 0;
-    background-image: url("../../../assets/img/art-bg.jpg");
-    background-position: center;
-    background-size: cover;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // height: calc(100vh - 72px);
+    // text-align: center;
+    // padding: 80px 0;
+    // background-image: url("../../../assets/img/banner.png");
+    // background-position: center;
+    // background-size: cover;
     @include tablet {
-        padding: 40px 0;
+        // padding: 40px 0;
+    }
+}
+
+.container {
+    @include mobile {
+        padding: 0;
     }
 }
 
 .imageWrapper {
-    display: block;
     width: 100%;
     img {
-        height: 100%;
+        display: block;
         width: 100%;
         max-width: 100%;
-        max-height: 400px;
-        object-fit: cover;
+        height: 100%;
+        max-height: 500px;
+        object-fit: fill;
     }
 }
 
 .wrapper {
     border-radius: 20px;
     padding: 40px 50px;
-    background-color: $blue;
+    // background-color: $blue;
     overflow: hidden;
     @include tablet {
         padding: 30px 50px;

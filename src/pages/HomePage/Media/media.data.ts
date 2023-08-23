@@ -80,10 +80,6 @@ export const mediaData: IMedia[] = [
         link: "https://svh.media/afisha/spb/2021-05-08-novyy-ulichnyy-festival--vladimirskiy-live/",
     },
     {
-        title: "Волонтер регистрации",
-        link: "https://dobro.ru/event/10230426",
-    },
-    {
         title: "Фестиваль «ВЛАДИМИРСКИЙ LIVE. ТЕРРИТОРИЯ КУЛЬТУРЫ».",
         link: "https://ds25centerspb.ru/novosti/fiestival_vladimirskii_live_tierritoriia_kul_tury_",
     },
@@ -95,11 +91,6 @@ export const mediaData: IMedia[] = [
     {
         title: "Музей Достоевского — участник фестиваля «Владимирский Live. Территория культуры»",
         link: "https://www.culture.ru/events/2292462/muzei-dostoevskogo-uchastnik-festivalya-vladimirskii-live-territoriya-kultury",
-    },
-    {
-        title: "Программа фестиваля",
-        date: "16.09.2022",
-        link: "https://vk.com/wall-34825534_20992",
     },
     {
         title: "Концерт ДШИ им. П. А. Серебрякова в рамках фестиваля «Владимирский Live. Территория культуры».",

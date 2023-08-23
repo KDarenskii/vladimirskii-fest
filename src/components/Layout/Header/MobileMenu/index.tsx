@@ -27,6 +27,7 @@ const MobileMenu: FC = () => {
             <MenuButton isActive={isActive} onClick={handleToggleMenu} />
             <div className={cn(styles.menu, isActive && styles.active)}>
                 <Navigation
+                    onClick={handleToggleMenu}
                     listClassName={styles.navList}
                     itemClassName={styles.navItem}
                     linkClassName={styles.navLink}

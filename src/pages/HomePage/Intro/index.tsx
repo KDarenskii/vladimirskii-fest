@@ -6,7 +6,7 @@ import SectionTitle from "components/SectionTitle";
 import TextHighlight from "components/TextHighlight";
 import Timer from "components/Timer";
 
-import coverSrc from "assets/img/fest-cover-small.jpg";
+import coverSrc from "assets/img/edited-newcover.png";
 
 import styles from "./intro.module.scss";
 
@@ -15,9 +15,9 @@ const FEST_DATE = new Date(2023, 8, 15, 10, 0, 0);
 const Intro: FC = () => {
     return (
         <section className={styles.section} id="main">
-            <Container>
-                {/* <CoverImage /> */}
-                <div className={styles.wrapper}>
+            <Container className={styles.container}>
+                <CoverImage />
+                {/* <div className={styles.wrapper}>
                     <SectionTitle className={styles.title} variant="light">
                         Фестиваль{" "}
                         <span className={styles.noWrapText}>
@@ -32,7 +32,7 @@ const Intro: FC = () => {
                         15 - 17 сентября 2023 года
                     </Paragraph>
                     <TimerBlock />
-                </div>
+                </div> */}
             </Container>
         </section>
     );
