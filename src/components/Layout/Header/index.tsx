@@ -14,7 +14,7 @@ import MobileMenu from "./MobileMenu";
 import styles from "./header.module.scss";
 
 const Header: FC = () => {
-    const { maxMobile } = useMatchMedia();
+    const { maxTablet } = useMatchMedia();
 
     return (
         <header className={styles.header}>
@@ -26,9 +26,14 @@ const Header: FC = () => {
                         smooth
                         offset={-70}
                     >
-                        <img src={logoSrc} alt="Логотип" />
+                        <img
+                            src={logoSrc}
+                            alt="Логотип"
+                            width={40}
+                            height={40}
+                        />
                     </Link>
-                    {maxMobile ? (
+                    {maxTablet ? (
                         <MobileMenu />
                     ) : (
                         <>

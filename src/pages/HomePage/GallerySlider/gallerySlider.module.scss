@@ -38,6 +38,7 @@
     @include mobile {
         bottom: -30px;
         li {
+            margin: 0 2px;
             button {
                 &::before {
                     font-size: 12px;
