@@ -28,7 +28,6 @@ const LazyImage: FC<Props> = ({
                 className,
             )}
             style={{
-                fontSize: "10px",
                 backgroundImage: `url(${placeholderSrc})`,
             }}
         >

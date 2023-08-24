@@ -15,7 +15,12 @@ const Quote: FC = () => {
             <Container className={styles.container}>
                 <div className={styles.wrapper}>
                     <div className={styles.author}>
-                        <img src={authorImageSrc} alt="Автор" />
+                        <img
+                            src={authorImageSrc}
+                            alt="Автор"
+                            width={400}
+                            height={363}
+                        />
                         <h5>Глава Владимирского округа</h5>
                         <p>Денис Тихоненко</p>
                     </div>

@@ -3,49 +3,51 @@ import React, { FC } from "react";
 import cn from "clsx";
 
 import TimerCount from "./TimerCount";
+import { ITimerCounter } from "./TimerCount/timerCount.interface";
 import styles from "./timer.module.scss";
 import useTimer from "./useTimer";
 
 interface Props {
-    className?: string;
-    countClassName?: string;
-    labelClassName?: string;
     date: Date;
+    label: string;
+    className?: string;
+    labelClassName?: string;
+    countClassName?: string;
+    labelCountClassName?: string;
 }
 
 const Timer: FC<Props> = ({
     date,
+    label,
     className,
-    countClassName,
     labelClassName,
+    countClassName,
+    labelCountClassName,
 }) => {
-    const time = useTimer(date);
+    const { days, hours, minutes, seconds } = useTimer(date);
+
+    const counters: ITimerCounter[] = [
+        { label: "Дней", number: days },
+        { label: "Часов", number: hours },
+        { label: "Минут", number: minutes },
+        { label: "Секунд", number: seconds },
+    ];
+
     return (
-        <div className={cn(styles.timer, className)}>
-            <TimerCount
-                countClassName={countClassName}
-                labelClassName={labelClassName}
-                label="Дней"
-                count={time.days}
-            />
-            <TimerCount
-                countClassName={countClassName}
-                labelClassName={labelClassName}
-                label="Часов"
-                count={time.hours}
-            />
-            <TimerCount
-                countClassName={countClassName}
-                labelClassName={labelClassName}
-                label="Минут"
-                count={time.minutes}
-            />
-            <TimerCount
-                countClassName={countClassName}
-                labelClassName={labelClassName}
-                label="Секунд"
-                count={time.seconds}
-            />
+        <div className={className}>
+            {label && (
+                <p className={cn(styles.timerLabel, labelClassName)}>{label}</p>
+            )}
+            <div className={styles.timer}>
+                {counters.map(({ label: countLabel, number }) => (
+                    <TimerCount
+                        countClassName={countClassName}
+                        labelClassName={labelCountClassName}
+                        label={countLabel}
+                        count={number}
+                    />
+                ))}
+            </div>
         </div>
     );
 };
