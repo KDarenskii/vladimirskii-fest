@@ -14181,7 +14181,6 @@ var LazyImage = function LazyImage(_ref) {
   return /*#__PURE__*/react.createElement("div", {
     className: dist_clsx(lazeImage_module.imageWrapper, isLoaded && lazeImage_module.loaded, className),
     style: {
-      fontSize: "10px",
       backgroundImage: "url(".concat(placeholderSrc, ")")
     }
   }, /*#__PURE__*/react.createElement("img", LazyImage_extends({
@@ -14215,6 +14214,7 @@ var initialMatchMedia = {
   isMobile: false,
   isMobileMiddle: false,
   isMobileSmall: false,
+  maxTablet: false,
   maxMobile: false
 };
 var queries = ["(max-width: 479.98px)", "(min-width: 479.99px) and (max-width: 676.99px)", "(min-width: 677px) and (max-width: 767.96px)", "(min-width: 767.97px) and (max-width: 991.98px)", "(min-width: 991.99px)"];
@@ -14248,7 +14248,10 @@ var useMatchMedia = function useMatchMedia() {
   var result = screens.reduce(function (acc, screen, index) {
     return _objectSpread(_objectSpread({}, acc), {}, _defineProperty({}, screen, values[index]));
   }, initialMatchMedia);
-  if (result.isMobile || result.isMobileMiddle || result.isMobileSmall || result.isTablet) {
+  if (!result.isDesktop) {
+    result.maxTablet = true;
+  }
+  if (!result.isTablet && !result.isDesktop) {
     result.maxMobile = true;
   }
   return result;
@@ -14380,24 +14383,44 @@ var Slider = function Slider(_ref) {
 ;// CONCATENATED MODULE: ./src/pages/HomePage/GallerySlider/gallerySlider.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var gallerySlider_module = ({"section":"gallerySlider-module__section__w4yp9","slide":"gallerySlider-module__slide__OEh9x","dots":"gallerySlider-module__dots__Jn_Ub"});
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-1-small.jpg
+var slide_1_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAALgAtAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAXAB4DASIAAhEAAxEA/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFBgP/xAAXAQEBAQEAAAAAAAAAAAAAAAACAQAD/9oADAMBAAIQAxAAAAHEPtUg4PLu/rK0gU5WoB7/AP/EAB8QAAIBBAIDAAAAAAAAAAAAAAEDAgAEBRMRFBIiJP/aAAgBAQABBQICuiyMTa8U6AVLsfLd2jUY3YdN3ah6QZCOSBbjfP12qI//xAAhEQABAwIHAQAAAAAAAAAAAAABAAIRAyEEEzFBUYGh8f/aAAgBAwEBPwENZBvt7wmUTVnLBdEfENCsCbv6X//EAB8RAAIBAgcAAAAAAAAAAAAAAAECAAMSITFBQmFxgf/aAAgBAgEBPwFnYEYawuVIu5jZr3Ku32f/xAAoEAABAwMDAwMFAAAAAAAAAAABAhESAAMhEyIxQVFhBDJCUnHB4fD/2gAIAQEABj8C/RpRMdlzTWA5jxknjLsKSJpkpZQ3ZQLc5pQdO1RQRyXH9zSLCGimUe5KgR+anJLaYmA8lF8F3+oiXgULeAoKCwr5g8YV28V6ZjbFwIIuKzuz189X803Wrp1bjjTk59w7cUMvFOMUkJmcbhxE/d81/8QAHRABAAICAwEBAAAAAAAAAAAAAREhADFBUWFxgf/aAAgBAQABPyGoYpYGhepiMVF3kMkgUZTveTX4Q9jEQjUPOH1V6CglgO5IVigdHI9ik9nrjLO4nsQtkUi8AhrihhhVD54Y3EoAbI9VkreWCZxBh6wYQe2Ah0HMYtlqDynmpf1+ZcB3I8HAuqPc/9oADAMBAAIAAwAAABBjUKL/xAAeEQACAgICAwAAAAAAAAAAAAABEQAhMWFBUXGB8P/aAAgBAwEBPxAwhdBpFtkuAmgK7ObK+elBBaHz7787hPhip//EABwRAQACAgMBAAAAAAAAAAAAAAEAESFBMVFxYf/aAAgBAgEBPxAIwtHdhvHzUAFQo8rh81MZOYj/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhMUFRYf/aAAgBAQABPxBGOVb8QFH8MQWYL4AAtIEojGvEIX9kBqNgV4YWMrXHYQhtLqHcuZx3bpgg4IkCsxBEShYgw2w3WSGERg+LagFL8ijrKW/DndnbUA9GOLEBNuCT44gSiyE6bJaDlN6w8HxF7xwW51DUZaRwjgeCLFMgcXP/2Q==";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-1.jpg
 var slide_1_namespaceObject = __webpack_require__.p + "static/media/img/slide-1.cda20648f8486f1405b9.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-2-small.jpg
+var slide_2_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAALgAtAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAXAB4DASIAAhEAAxEA/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQDBQYB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDAP/aAAwDAQACEAMQAAABxxI0G1rdX2b1KoatzABH/8QAGxAAAwEBAAMAAAAAAAAAAAAAAgMEAQAFERP/2gAIAQEAAQUCTG2pi10oqiWiWYG+ugsbBVWJOrAx+U9OH1rBXIJFsfiZ8chjhh3/xAAgEQACAgIABwAAAAAAAAAAAAABAgARBCEDEjEyNIGR/9oACAEDAQE/AW7tD5KWY3mquiDqiARXuZyImXxVUcoDGgOgn//EABsRAAIDAAMAAAAAAAAAAAAAAAABAhEhIiNh/9oACAECAQE/Abw5vSC6k/SLdSP/xAAmEAACAAUDBAIDAAAAAAAAAAABAgADESExEiJBEyNhgQRCFFJy/9oACAEBAAY/AulJVpjUJoubZgotUmS6g/UjgiETSGf7NXJ9xhYSfKFSLUpkHIiZ8nS8rrMT3QBc7gAV8RrGtgFrZc/z+17ba3jf2+d7LTOK2v44helKC33stFbxehPmJSu7IaGYq5V75sbe41qQpXUgtXixrn0DD/lSZc9mfIFExfSLER//xAAeEAEBAAICAwEBAAAAAAAAAAABEQAhMUFRYXGB0f/aAAgBAQABPyHTUTJRstzjLPsFel6DuM3i0PFqRFdRZ9zYgep/c5QCK54V7TQ9Ob0LCS4GIzsyzeVNytVEOA8HeANJfo1QfJrOnLh2mPeAEAgVanjOmpMzzbLHVZzQujDLoJN7APecOrxBFyNh3Q/c/9oADAMBAAIAAwAAABDwV4P/xAAdEQEAAgICAwAAAAAAAAAAAAABETEAIUFRkaHw/9oACAEDAQE/ELKCPjkEEceqy8EpoCvQfJvDZj9AOgz/xAAbEQEAAgMBAQAAAAAAAAAAAAABETEAIUGB0f/aAAgBAgEBPxAV3bN/MkFTE3gLtvXctHQ8vP/EABwQAQEAAwADAQAAAAAAAAAAAAERACExQVFxsf/aAAgBAQABPxChP1NEAVQ13cAC1LfXoxRLRZjHbkm6yPYBA6ydAPBYfK/AyszvLUQwpjaDGZpxHROQGDC7IuHBpLhrQ1HIroLg2HtRCAUSQEwFcqqEbnkzf25EuWMge4QLcVQCJQbiW9mhvDKpDiaXeGJsqkxuAgDgJ5Z//9k=";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-2.jpg
 var slide_2_namespaceObject = __webpack_require__.p + "static/media/img/slide-2.b2230368f2ff50326df9.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-3-small.jpg
+var slide_3_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAALgAtAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAXAB4DASIAAhEAAxEA/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFBAb/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAdZJpZ3jrcu5J7ASjCAr/8QAHBAAAgMAAwEAAAAAAAAAAAAAAgQBAxIABRMU/9oACAEBAAEFAuq3YTfXLTU0CAWo4KVGAr4w3UC298+w1yXvvrUYXY3YJRBx6n//xAAbEQADAAIDAAAAAAAAAAAAAAABAhEAIRAyYf/aAAgBAwEBPwEKWubYEm6nCdT7M//EAB0RAAICAQUAAAAAAAAAAAAAAAECABEDITJBUXH/2gAIAQIBAT8BLkFZaqyr3coTJv8ACwHGk//EACkQAAIBAwIFAgcAAAAAAAAAAAECEQADEiExBBMiMmFBUSMzYnGBsdH/2gAIAQEABj8CvJxF1OIR7Y0ysOZB1kp1H81xRm4i/DZAk5Lyx9Zg+PFW7Nt7luVFssqiGy7eomQRjvFMMssVVZO581zLFu66rbFi4zG2kqx0KhSTl6/artxFL9JUwCNxGuXtNDlwScYnLmLvG5idd5ohG379pJHr+6m3Gdy/iPaEtH+6V13IL/LA7CRAjTUGToaCkLiADmgAG/to5g+KbETB3Olf/8QAHRABAQADAQADAQAAAAAAAAAAAREAITFRQWFxgf/aAAgBAQABPyHam3NBhKHE4PbkPYDFut0SrpNt5R+L6Y2AtSo7m4Fd8AdPKysyQucTqknmLI9zaLkTtrQV2RN41Uk3yWs0y9oZksWejQz17X2414OPFfvm/wBjNVrDQVRcDaE77ivDZjehUAPR+ZBxrErr8jX+5//aAAwDAQACAAMAAAAQepjj/8QAHhEBAAICAQUAAAAAAAAAAAAAAQAhEVExQYGRofH/2gAIAQMBAT8QIYLi1OD1LooB5+wXIdNRuzBubvvP/8QAGxEBAAIDAQEAAAAAAAAAAAAAAREhADFBUYH/2gAIAQIBAT8QKPYI3c9RNlmRBAqvWCV+SZBwzcUVqxtEkLfuf//EABoQAQEAAwEBAAAAAAAAAAAAAAERACExQWH/2gAIAQEAAT8Q9bs2jdqqW6tMUoWk6MtyA+SkHGw1anTQjJEIHHvgJ1ECIVSJF5lvdwKU95khZUibeKLVckI02IJ3G37IYSbdMFKLEyyYVDPCnQqAd/HFEkgFS6TlR4pgAMLElXUw25QwrPRZE2UIloLyG515Sb6nZJhridz/2Q==";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-3.jpg
 var slide_3_namespaceObject = __webpack_require__.p + "static/media/img/slide-3.381f242df77b4b0e4d8c.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-4-small.jpg
+var slide_4_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAALgAtAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAXAB4DASIAAhEAAxEA/8QAGgAAAQUBAAAAAAAAAAAAAAAAAAECAwQGBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB62Rhs4cxeovVYgQcFf/EAB4QAAICAgIDAAAAAAAAAAAAAAIDAQUABBFBBhIh/9oACAEBAAEFAi0kMrbCiNCexclLF3tmI7fkjtjW7jjBnC+lPGR6RH//xAAbEQABBAMAAAAAAAAAAAAAAAABAAIQESIx4f/aAAgBAwEBPwFmLKO7PEDSMf/EABoRAAICAwAAAAAAAAAAAAAAAAECABEQEkH/2gAIAQIBAT8BYNvYJ5GFwY//xAAmEAACAQMCBAcAAAAAAAAAAAABAgMAERIhMQQTIKEiMkFRYrHR/9oACAEBAAY/AkSaNXwhUD3BsNiNaM8TXjAuVbzL+9qFSYR5IbY8y1x91gZRIvzUHvoaPDvDH41IZgT6i23Vua//xAAcEAEAAwEBAQEBAAAAAAAAAAABABEhMUFxUaH/2gAIAQEAAT8h13hTMXmb+MvXxmEdLoKfiL7ANrr35H4PYhHbzSx3QVIt2+D+kDW028SK6b11i/Eszvs6R2JEt3eTebXwOT//2gAMAwEAAgADAAAAEMgA3v/EABwRAAICAgMAAAAAAAAAAAAAAAERACEQMUFhgf/aAAgBAwEBPxABQsXlihQ6TbChiYrvyajH/8QAGxEBAAIDAQEAAAAAAAAAAAAAAQARITFBUYH/2gAIAQIBAT8QTQDixHORHtaSUabrz7No6n//xAAdEAEAAgIDAQEAAAAAAAAAAAABETEAIUFRYXGx/9oACAEBAAE/EJINAtxIDvEJ5MJY3nRWIwXcBrAQGyl7bj2KxIxkgmYSPwJoMevBEKAReTvi/wDLyxFkDYBCIMCM0fzCdSTbv51Llh7w6JIb5jTk3IoIag3sW/mQjo0KKMrFpJHCZ//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-4.jpg
 var slide_4_namespaceObject = __webpack_require__.p + "static/media/img/slide-4.ef1424f82980f4da3b70.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-5-small.jpg
+var slide_5_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAALgAtAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAXAB4DASIAAhEAAxEA/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwH/2gAMAwEAAhADEAAAAYtSIwdfWG53eUF5c7gV/8QAGhAAAwEBAQEAAAAAAAAAAAAAAQIDBBIAE//aAAgBAQABBQJLSZc/WoOB6a8sMlZhdByvs3Gvk3v8xQOmtXueGrMxfj//xAAeEQACAQMFAAAAAAAAAAAAAAABAhEAEBITISIxQf/aAAgBAwEBPwF15ZR3QMUztrFZMYjby3//xAAgEQACAQMEAwAAAAAAAAAAAAABAgAREiEDBCIxMkHB/9oACAECAQE/AV8bQ3UOm7Dl8xFRBtw1BW459wz/xAAmEAACAQQCAQIHAAAAAAAAAAABAhEAEiExQVGRAyIjUmFxgaHR/9oACAEBAAY/As+Nj+jzUIAWuxBnvuKAf1Um9wJPehrinZjIY6g4/NQtxNqzxDHax+ppQrLMhu53vURQuMyWtjEBznPMcGviA23QGAkyNzn616zMSpe3Xaw2fJq8D2qMaFKPl19qVJGCTX//xAAgEAEBAAMAAgEFAAAAAAAAAAABEQAhMUFRcWGRobHB/9oACAEBAAE/IQCQSl1N9PyYBuZ4jXpTzlYACVtQYNiffI/6ns/JPBvWaQ9JWJfgNoxR9YHq9BqnwewKYP3oiVEKJeejhm5R2IExoOB1r6YRDCrTRrGkYY1LujYeJ2uph5K0qSv1k0hC5tnff8z/2gAMAwEAAgADAAAAEAenvv/EAB4RAQABBAIDAAAAAAAAAAAAAAERACExQXGBkdHx/9oACAEDAQE/EGVYyJx55oVB961SUsVE2Ldg1LmKFl49V//EABwRAQACAgMBAAAAAAAAAAAAAAERMQAhQVGBYf/aAAgBAgEBPxBoFQGmV8a9yxGWuj7G5wTEyQbBol5gqcJGf//EABsQAQEBAQEBAQEAAAAAAAAAAAERIQAxQVFx/9oACAEBAAE/EDwfu5Leln+rsW8j2zi00CwxNx59Uej4RBEaMxX3mayvwswTcgEMHpEpowTfZIbkGV3uO6KKGRRtSlqcbY1NxL4MAAuIdTZnXuBeyxP4HTWFuop3rkV+OPLXoBJHbAATVVXiAG92kM/jcO88WJmKoo0Pw+Nvf//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-5.jpg
 var slide_5_namespaceObject = __webpack_require__.p + "static/media/img/slide-5.d8f6910483073518929d.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-6-small.jpg
+var slide_6_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAALgAtAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAXAB4DASIAAhEAAxEA/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAIEBQMG/8QAGAEAAgMAAAAAAAAAAAAAAAAAAgQAAQP/2gAMAwEAAhADEAAAAcqtWK6/N35C060A2LMGR//EABsQAAIDAQEBAAAAAAAAAAAAAAEDAgQFEhMi/9oACAEBAAEFAl6Y4r6QkzRYqS7H0R5BOVaq9u6WzlxKE3SK2doCM825XjaXHr//xAAfEQABAwMFAAAAAAAAAAAAAAACAQMSABARITFRYXH/2gAIAQMBAT8BbIkKOVFPUpwpHnbqzYistOK//8QAHxEAAgICAQUAAAAAAAAAAAAAAQIDIQARBBASIoHw/9oACAECAQE/AeXBGkat4yk7oBqxYmjUXsbN/HpOAe33n//EACgQAAECBAUCBwAAAAAAAAAAAAECEQADITESEyJBYTJxUYGRocHR8P/aAAgBAQAGPwKoFmopviES5cjGe4YDmlhCRKSgreraW9ouHfaHIT04iN6XIeJxSCOFM+oNfvEybNyl5mYBgVYNR+RDBhS7s49Y0BIBBFSNwx8YUEFCHZ6ja2xhRJlHFU/m5jqU/l9R/8QAHBABAAIDAAMAAAAAAAAAAAAAAREhADFBUWGB/9oACAEBAAE/IQRgtfnbts5uSkE/a/alwywqhoLd48OBs2CSr1rWK0JQVAogTQxjq/TQoKE2Ba90ZCmRFkREVpJOt9xhdAMLjVoPmOJYYkTsbR3nMLBNzRZzbg4GEZHtbJmD1RWMCpSXqDdDP//aAAwDAQACAAMAAAAQbpAh/8QAHBEBAAEFAQEAAAAAAAAAAAAAAREAITFBYVFx/9oACAEDAQE/EGgShUad4vf7SJCXjzTEbL1loxN3T3tf/8QAHBEAAgIDAQEAAAAAAAAAAAAAAREhQQAxUYHR/9oACAECAQE/EBhOuAaWoLrBgICSLngNAY8xBfZxCI0wra5n/8QAHBABAQADAQEBAQAAAAAAAAAAAREAITFBUXGB/9oACAEBAAE/EFwKEBtCCBZpoGLtYPrXxAS9nJWZaS45LZ1CNRk8XJYFEWOOmrH4fmCikpA/yg6L5HuLRQNLjLAkJmxwxyyObI3TRlJE2wBCxuspEL88/mCyBIDaLU0OqsOFqGHV4hia6S1GimCcj72SqJK0H6aMRiIkLh9B6627z//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-6.jpg
 var slide_6_namespaceObject = __webpack_require__.p + "static/media/img/slide-6.ea8e539efdc177803ef1.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-7-small.jpg
+var slide_7_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAPABQDASIAAhEAAxEA/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABTXytrLSEjf/EABoQAAMBAAMAAAAAAAAAAAAAAAIDBAUAARX/2gAIAQEAAQUCzYicHjSkY4EThzNftKJ9LiLVoD//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/AdXL/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPwHKRH//xAAkEAABAwMDBAMAAAAAAAAAAAABAgMRABIhE0JRMTJhcXLB0f/aAAgBAQAGPwJl7Ubb1Qcxe5jqJOBgGljVUpWFSRt/aC0Oqg+qSzHZMY5rzbbMbeKsQDHyP2K//8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBcZGB/9oACAEBAAE/IXOdJWYVB5IBomDPDGg6iuzwTEgA+shdp9jd8U3iNULr2eE1kWF0KzjirP1z/9oADAMBAAIAAwAAABDs7//EABkRAAIDAQAAAAAAAAAAAAAAAAAhARFhsf/aAAgBAwEBPxCVtG/D/8QAFxEAAwEAAAAAAAAAAAAAAAAAARAhMf/aAAgBAgEBPxAYVX//xAAcEAEBAQEAAgMAAAAAAAAAAAABESEAMVFhccH/2gAIAQEAAT8QPK/GFzGR4bJXgFgrO0QvkZgHDhWV/QYwfjtwn0J2Ae08ozhlonqgiU3Ezae+GhyaGgSGxY6Xe//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-7.jpg
 var slide_7_namespaceObject = __webpack_require__.p + "static/media/img/slide-7.0b75c21fb7d4e4f14d3a.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-8-small.jpg
+var slide_8_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAJABQDASIAAhEAAxEA/8QAFgABAQEAAAAAAAAAAAAAAAAAAgQA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAYWkXJpNT//EABsQAAMAAgMAAAAAAAAAAAAAAAECAwAyBBIx/9oACAEBAAEFAg6UzoikGFBDTkan3//EABgRAAIDAAAAAAAAAAAAAAAAAAESEBEh/9oACAEDAQE/AUC3sf/EABcRAAMBAAAAAAAAAAAAAAAAAAEQERL/2gAIAQIBAT8B2bF//8QAIRAAAgAEBwEAAAAAAAAAAAAAAQIAERIxEyAhImFxgZH/2gAIAQEABj8C2I8z4qn2ZMHEDKCLq09fg6ioLRwb2yf/xAAeEAACAgEFAQAAAAAAAAAAAAABEQAxYSFBUXGBof/aAAgBAQABPyFamAEgL5kVmbJq1DkCwUzHYggNNCAb9lXcrl0//9oADAMBAAIAAwAAABDXH//EABkRAAMAAwAAAAAAAAAAAAAAAAABESExcf/aAAgBAwEBPxBV1XRLG2f/xAAYEQEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxDHiotryf/EAB4QAQEAAQMFAAAAAAAAAAAAAAERACFhoTFBUcHw/9oACAEBAAE/EKBfmt7F0TsjWC4D2Q+Y+6MCh1YaXFUFDV1tN7mfRtnEfWc7P//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-8.jpg
 var slide_8_namespaceObject = __webpack_require__.p + "static/media/img/slide-8.ea3131acc3c8c79f3046.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-9-small.jpg
+var slide_9_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAcABzAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAOABQDASIAAhEAAxEA/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgD/2gAMAwEAAhADEAAAAU4ObDNhAL//xAAbEAACAgMBAAAAAAAAAAAAAAACAwEEAAURIf/aAAgBAQABBQKvS15hZQC8gS4tnjG9MnjM/wD/xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhQf/aAAgBAwEBPwFxjZR//8QAGREAAgMBAAAAAAAAAAAAAAAAAREAAgMh/9oACAECAQE/AT2qQcNNHP/EACUQAAEDAwEJAQAAAAAAAAAAAAECERIAIUEDBCIxMlFSYXGxwf/aAAgBAQAGPwJxtWoDKBuLKZ80uOsS2DFz5NX+4qN5FU0KyLHjTr3lhn7SOjY91yffw1//xAAeEAACAgICAwAAAAAAAAAAAAABESFBADFRYYGRof/aAAgBAQABPyGA7B7pQIouLxKYwi6BIAmo9YJ2yF4K+Ytho+UgI5tsqxjpxpEUiElxuWOCTO3kukRprP/aAAwDAQACAAMAAAAQPM//xAAaEQACAgMAAAAAAAAAAAAAAAABIRBBMVGR/9oACAEDAQE/EGE2g7G8LsP/xAAYEQEBAQEBAAAAAAAAAAAAAAABESEAQf/aAAgBAgEBPxDRAkRLh6NfeoRys3v/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhQTFh/9oACAEBAAE/EIPfcSDWrFbwT3K8+tfZQW26NUw1NYiSg8TO/HnzAuKIbQBTSUlSbmkVJEIzaBaWnDH97SUNiGttEFAuf//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-9.jpg
 var slide_9_namespaceObject = __webpack_require__.p + "static/media/img/slide-9.d8f3ec4e5202d43b6252.jpg";
+;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-10-small.jpg
+var slide_10_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAGgAarAAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAANABQDASIAAhEAAxEA/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHm8NzObQEw/8QAGhABAQADAQEAAAAAAAAAAAAAAgMEBRMAEv/aAAgBAQABBQLVU4gzg05ErEX16sQNXkPrX//EABsRAAIBBQAAAAAAAAAAAAAAAAACARESMUFR/9oACAEDAQE/AUVKY1LSWrw//8QAGxEAAQQDAAAAAAAAAAAAAAAAAgABEUEDMVH/2gAIAQIBAT8ByGfbYWikxHG1/8QAJBAAAgEEAQMFAQAAAAAAAAAAAQIRABIhMQMiUXEEMkFCYYH/2gAIAQEABj8C5TasuhUStxx2nvqrmPJaWPSIuGcf05qJxsa0dVxr9lJhvz3RHn5pPVgC5+RltgWgKV15okgCOkBcABcCv//EABwQAAIDAAMBAAAAAAAAAAAAAAERACExQVFhcf/aAAgBAQABPyEDmKoCeLIkcaogzSpARGl8AAUMgPsFtG9W+wRI5apSHLZtrDkbsIsBcKJNkdw9EIYKEJdCzzP/2gAMAwEAAgADAAAAEJsP/8QAGREBAAMBAQAAAAAAAAAAAAAAAQARIVGx/9oACAEDAQE/ELx07FotgVphyIKep//EABoRAQADAQEBAAAAAAAAAAAAAAERITEAQVH/2gAIAQIBAT8QpYMgQhnxt+8gMLBzv//EABkQAQEBAQEBAAAAAAAAAAAAAAERIQAxUf/aAAgBAQABPxB03rb9gIEPVMY94qCrgq60p9jo8riotAvg9wkmpnMJkAo1Zjw4yKpwJhNBTQqqgEwHC0SCPTjSFTVvf//Z";
 ;// CONCATENATED MODULE: ./src/assets/img/gallerySlider/slide-10.jpg
 var slide_10_namespaceObject = __webpack_require__.p + "static/media/img/slide-10.0a403d5137c240659fd0.jpg";
 ;// CONCATENATED MODULE: ./src/pages/HomePage/GallerySlider/gallerySlides.data.tsx
@@ -14412,64 +14435,75 @@ var slide_10_namespaceObject = __webpack_require__.p + "static/media/img/slide-1
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 var slides = [{
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_1_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_1_small_namespaceObject
   }),
   key: 1
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_2_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_2_small_namespaceObject
   }),
   key: 2
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_3_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_3_small_namespaceObject
   }),
   key: 3
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_4_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_4_small_namespaceObject
   }),
   key: 4
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_5_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_5_small_namespaceObject
   }),
   key: 5
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_6_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_6_small_namespaceObject
   }),
   key: 6
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_7_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_7_small_namespaceObject
   }),
   key: 7
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_8_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_8_small_namespaceObject
   }),
   key: 8
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_9_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_9_small_namespaceObject
   }),
   key: 9
 }, {
-  slide: /*#__PURE__*/react.createElement("img", {
+  slide: /*#__PURE__*/react.createElement(components_LazyImage, {
     src: slide_10_namespaceObject,
-    alt: ""
+    placeholderSrc: slide_10_small_namespaceObject
   }),
   key: 10
 }];
@@ -14528,23 +14562,48 @@ var Influence = function Influence() {
 
 
 
-var TimerCount_TimerCount = function TimerCount(_ref) {
+var TimerCount = function TimerCount(_ref) {
   var label = _ref.label,
     count = _ref.count,
     countClassName = _ref.countClassName,
     labelClassName = _ref.labelClassName;
-  return /*#__PURE__*/React.createElement("div", {
-    className: styles.timerCount
-  }, /*#__PURE__*/React.createElement("div", {
-    className: cn(styles.count, countClassName)
-  }, count), /*#__PURE__*/React.createElement("div", {
-    className: cn(styles.label, labelClassName)
+  return /*#__PURE__*/react.createElement("div", {
+    className: timerCount_module.timerCount
+  }, /*#__PURE__*/react.createElement("div", {
+    className: dist_clsx(timerCount_module.count, countClassName)
+  }, count), /*#__PURE__*/react.createElement("div", {
+    className: dist_clsx(timerCount_module.label, labelClassName)
   }, label));
 };
-/* harmony default export */ var Timer_TimerCount = ((/* unused pure expression or super */ null && (TimerCount_TimerCount)));
+/* harmony default export */ var Timer_TimerCount = (TimerCount);
 ;// CONCATENATED MODULE: ./src/components/Timer/timer.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ var timer_module = ({"timer":"timer-module__timer__l_PSg"});
+/* harmony default export */ var timer_module = ({"timerLabel":"timer-module__timerLabel__Ms6l9","timer":"timer-module__timer__l_PSg"});
+;// CONCATENATED MODULE: ./src/helpers/getTimeDifference.ts
+var getTimerDifference = function getTimerDifference(date) {
+  var dateMs = date.getTime();
+  var currTimeMs = new Date().getTime();
+  var timeDifferenceMs = dateMs - currTimeMs;
+  if (timeDifferenceMs < 0) {
+    return {
+      days: "00",
+      hours: "00",
+      minutes: "00",
+      seconds: "00"
+    };
+  }
+  var days = Math.floor(timeDifferenceMs / (1000 * 60 * 60 * 24) % 365);
+  var hours = Math.floor(timeDifferenceMs / (1000 * 60 * 60) % 24);
+  var minutes = Math.floor(timeDifferenceMs / (1000 * 60) % 60);
+  var seconds = Math.floor(timeDifferenceMs / 1000 % 60);
+  return {
+    days: days < 10 ? "0".concat(days) : days.toString(),
+    hours: hours < 10 ? "0".concat(hours) : hours.toString(),
+    minutes: minutes < 10 ? "0".concat(minutes) : minutes.toString(),
+    seconds: seconds < 10 ? "0".concat(seconds) : seconds.toString()
+  };
+};
+/* harmony default export */ var getTimeDifference = (getTimerDifference);
 ;// CONCATENATED MODULE: ./src/components/Timer/useTimer.ts
 function useTimer_slicedToArray(arr, i) { return useTimer_arrayWithHoles(arr) || useTimer_iterableToArrayLimit(arr, i) || useTimer_unsupportedIterableToArray(arr, i) || useTimer_nonIterableRest(); }
 function useTimer_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -14554,16 +14613,16 @@ function useTimer_iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "
 function useTimer_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
-var useTimer_useTimer = function useTimer(date) {
-  var _useState = useState(function () {
-      return getTimerDifference(date);
+var useTimer = function useTimer(date) {
+  var _useState = (0,react.useState)(function () {
+      return getTimeDifference(date);
     }),
     _useState2 = useTimer_slicedToArray(_useState, 2),
     time = _useState2[0],
     setTime = _useState2[1];
-  useEffect(function () {
+  (0,react.useEffect)(function () {
     var interval = setInterval(function () {
-      setTime(getTimerDifference(date));
+      setTime(getTimeDifference(date));
     }, 1000);
     return function () {
       return clearInterval(interval);
@@ -14571,50 +14630,63 @@ var useTimer_useTimer = function useTimer(date) {
   }, [date]);
   return time;
 };
-/* harmony default export */ var Timer_useTimer = ((/* unused pure expression or super */ null && (useTimer_useTimer)));
+/* harmony default export */ var Timer_useTimer = (useTimer);
 ;// CONCATENATED MODULE: ./src/components/Timer/index.tsx
 
 
 
 
 
-var Timer_Timer = function Timer(_ref) {
+var Timer = function Timer(_ref) {
   var date = _ref.date,
+    label = _ref.label,
     className = _ref.className,
+    labelClassName = _ref.labelClassName,
     countClassName = _ref.countClassName,
-    labelClassName = _ref.labelClassName;
-  var time = useTimer(date);
-  return /*#__PURE__*/React.createElement("div", {
-    className: cn(styles.timer, className)
-  }, /*#__PURE__*/React.createElement(TimerCount, {
-    countClassName: countClassName,
-    labelClassName: labelClassName,
-    label: "\u0414\u043D\u0435\u0439",
-    count: time.days
-  }), /*#__PURE__*/React.createElement(TimerCount, {
-    countClassName: countClassName,
-    labelClassName: labelClassName,
-    label: "\u0427\u0430\u0441\u043E\u0432",
-    count: time.hours
-  }), /*#__PURE__*/React.createElement(TimerCount, {
-    countClassName: countClassName,
-    labelClassName: labelClassName,
-    label: "\u041C\u0438\u043D\u0443\u0442",
-    count: time.minutes
-  }), /*#__PURE__*/React.createElement(TimerCount, {
-    countClassName: countClassName,
-    labelClassName: labelClassName,
-    label: "\u0421\u0435\u043A\u0443\u043D\u0434",
-    count: time.seconds
-  }));
+    labelCountClassName = _ref.labelCountClassName;
+  var _useTimer = Timer_useTimer(date),
+    days = _useTimer.days,
+    hours = _useTimer.hours,
+    minutes = _useTimer.minutes,
+    seconds = _useTimer.seconds;
+  var counters = [{
+    label: "Дней",
+    number: days
+  }, {
+    label: "Часов",
+    number: hours
+  }, {
+    label: "Минут",
+    number: minutes
+  }, {
+    label: "Секунд",
+    number: seconds
+  }];
+  return /*#__PURE__*/react.createElement("div", {
+    className: className
+  }, label && /*#__PURE__*/react.createElement("p", {
+    className: dist_clsx(timer_module.timerLabel, labelClassName)
+  }, label), /*#__PURE__*/react.createElement("div", {
+    className: timer_module.timer
+  }, counters.map(function (_ref2) {
+    var countLabel = _ref2.label,
+      number = _ref2.number;
+    return /*#__PURE__*/react.createElement(Timer_TimerCount, {
+      countClassName: countClassName,
+      labelClassName: labelCountClassName,
+      label: countLabel,
+      count: number
+    });
+  })));
 };
-/* harmony default export */ var components_Timer = ((/* unused pure expression or super */ null && (Timer_Timer)));
-;// CONCATENATED MODULE: ./src/assets/img/edited-newcover.png
-var edited_newcover_namespaceObject = __webpack_require__.p + "static/media/img/edited-newcover.7072f0e889d5a4b825ac.png";
+/* harmony default export */ var components_Timer = (Timer);
+;// CONCATENATED MODULE: ./src/assets/img/fest-cover.png
+var fest_cover_namespaceObject = __webpack_require__.p + "static/media/img/fest-cover.87ca5d2da4fa1412a779.png";
 ;// CONCATENATED MODULE: ./src/pages/HomePage/Intro/intro.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ var intro_module = ({"container":"intro-module__container__mYIl_","imageWrapper":"intro-module__imageWrapper__xYD_Y","wrapper":"intro-module__wrapper___mfKl","title":"intro-module__title__kIlpS","noWrapText":"intro-module__noWrapText__OtS4R","text":"intro-module__text__C92YH","timerWrapper":"intro-module__timerWrapper__GjUO8","timer":"intro-module__timer__KVhk9","timeCounter":"intro-module__timeCounter__DDLQf","timeLabel":"intro-module__timeLabel__sIu6y"});
+/* harmony default export */ var intro_module = ({"container":"intro-module__container__mYIl_","imageWrapper":"intro-module__imageWrapper__xYD_Y","timer":"intro-module__timer__KVhk9","timerLabel":"intro-module__timerLabel__pDHej","timerCount":"intro-module__timerCount__tGMX7","timerCountLabel":"intro-module__timerCountLabel__L9DYV"});
 ;// CONCATENATED MODULE: ./src/pages/HomePage/Intro/index.tsx
+
 
 
 
@@ -14622,32 +14694,29 @@ var edited_newcover_namespaceObject = __webpack_require__.p + "static/media/img/
 
 var FEST_DATE = new Date(2023, 8, 15, 10, 0, 0);
 var Intro = function Intro() {
+  var _useMatchMedia = hooks_useMatchMedia(),
+    maxMobile = _useMatchMedia.maxMobile;
   return /*#__PURE__*/react.createElement("section", {
-    className: intro_module.section,
     id: "main"
   }, /*#__PURE__*/react.createElement(components_Container, {
     className: intro_module.container
-  }, /*#__PURE__*/react.createElement(CoverImage, null)));
-};
-/* harmony default export */ var HomePage_Intro = (Intro);
-function CoverImage() {
-  return /*#__PURE__*/react.createElement("div", {
+  }, /*#__PURE__*/react.createElement("div", {
     className: intro_module.imageWrapper
   }, /*#__PURE__*/react.createElement("img", {
-    src: edited_newcover_namespaceObject,
-    alt: "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C"
-  }));
-}
-function TimerBlock() {
-  return /*#__PURE__*/React.createElement("div", {
-    className: styles.timerWrapper
-  }, /*#__PURE__*/React.createElement("p", null, "\u0414\u043E \u043D\u0430\u0447\u0430\u043B\u0430:"), /*#__PURE__*/React.createElement(Timer, {
-    className: styles.timer,
-    countClassName: styles.timeCounter,
-    labelClassName: styles.timeLabel,
-    date: FEST_DATE
-  }));
-}
+    src: fest_cover_namespaceObject,
+    alt: "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C",
+    width: 1280,
+    height: 500
+  }), !maxMobile && /*#__PURE__*/react.createElement(components_Timer, {
+    date: FEST_DATE,
+    label: "\u0414\u043E \u043D\u0430\u0447\u0430\u043B\u0430:",
+    className: intro_module.timer,
+    labelClassName: intro_module.timerLabel,
+    countClassName: intro_module.timerCount,
+    labelCountClassName: intro_module.timerCountLabel
+  }))));
+};
+/* harmony default export */ var HomePage_Intro = (Intro);
 ;// CONCATENATED MODULE: ./src/assets/img/diagonal-arrow-right.svg
 var diagonal_arrow_right_namespaceObject = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjgwMCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PHBhdGggZD0iTTE4IDcuMDVhMSAxIDAgMCAwLTEtMUw5IDZhMSAxIDAgMCAwIDAgMmg1LjU2bC04LjI3IDguMjlhMSAxIDAgMCAwIDAgMS40MiAxIDEgMCAwIDAgMS40MiAwTDE2IDkuNDJWMTVhMSAxIDAgMCAwIDEgMSAxIDEgMCAwIDAgMS0xeiIgZGF0YS1uYW1lPSJkaWFnb25hbC1hcnJvdy1yaWdodC11cCIvPjwvZz48L3N2Zz4=";
 ;// CONCATENATED MODULE: ./src/components/MediaList/MediaItem/mediaItem.module.scss
@@ -14919,7 +14988,9 @@ var Quote = function Quote() {
     className: quote_module.author
   }, /*#__PURE__*/react.createElement("img", {
     src: quote_author_namespaceObject,
-    alt: "\u0410\u0432\u0442\u043E\u0440"
+    alt: "\u0410\u0432\u0442\u043E\u0440",
+    width: 400,
+    height: 363
   }), /*#__PURE__*/react.createElement("h5", null, "\u0413\u043B\u0430\u0432\u0430 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430"), /*#__PURE__*/react.createElement("p", null, "\u0414\u0435\u043D\u0438\u0441 \u0422\u0438\u0445\u043E\u043D\u0435\u043D\u043A\u043E")), /*#__PURE__*/react.createElement(QuoteContent, null))));
 };
 /* harmony default export */ var HomePage_Quote = (Quote);
@@ -15062,8 +15133,8 @@ var socialLinks = [{
   id: 1,
   link: "https://t.me/ulpravdy",
   icon: /*#__PURE__*/react.createElement("svg", {
-    width: "800px",
-    height: "800px",
+    width: "30px",
+    height: "30px",
     viewBox: "0 0 24 24",
     fill: "#ffffff",
     xmlns: "http://www.w3.org/2000/svg"
@@ -15078,8 +15149,8 @@ var socialLinks = [{
   link: "https://vk.com/vladimokspb",
   icon: /*#__PURE__*/react.createElement("svg", {
     fill: "#000000",
-    width: "800px",
-    height: "800px",
+    width: "30px",
+    height: "30px",
     viewBox: "0 0 32 32",
     version: "1.1",
     xmlns: "http://www.w3.org/2000/svg"
@@ -15213,7 +15284,7 @@ var MobileMenu = function MobileMenu() {
 
 var Header = function Header() {
   var _useMatchMedia = hooks_useMatchMedia(),
-    maxMobile = _useMatchMedia.maxMobile;
+    maxTablet = _useMatchMedia.maxTablet;
   return /*#__PURE__*/react.createElement("header", {
     className: header_module.header
   }, /*#__PURE__*/react.createElement(components_Container, null, /*#__PURE__*/react.createElement("div", {
@@ -15225,8 +15296,10 @@ var Header = function Header() {
     offset: -70
   }, /*#__PURE__*/react.createElement("img", {
     src: logo_namespaceObject,
-    alt: "\u041B\u043E\u0433\u043E\u0442\u0438\u043F"
-  })), maxMobile ? /*#__PURE__*/react.createElement(Header_MobileMenu, null) : /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(components_Navigation, null), /*#__PURE__*/react.createElement(components_Social, null)))));
+    alt: "\u041B\u043E\u0433\u043E\u0442\u0438\u043F",
+    width: 40,
+    height: 40
+  })), maxTablet ? /*#__PURE__*/react.createElement(Header_MobileMenu, null) : /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(components_Navigation, null), /*#__PURE__*/react.createElement(components_Social, null)))));
 };
 /* harmony default export */ var Layout_Header = (Header);
 ;// CONCATENATED MODULE: ./src/components/Layout/layout.module.scss
