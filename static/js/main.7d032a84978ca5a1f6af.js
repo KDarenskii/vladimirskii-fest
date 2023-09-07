@@ -14105,9 +14105,9 @@ function Description() {
     className: about_module.text
   }, /*#__PURE__*/react.createElement(components_TextHighlight, null, "\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u0438\u0439"), " ", /*#__PURE__*/react.createElement(components_TextHighlight, {
     variant: "danger"
-  }, "Live"), " - \u0435\u0436\u0435\u0433\u043E\u0434\u043D\u044B\u0439 \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0439 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u0434\u043B\u044F \u0436\u0438\u0442\u0435\u043B\u0435\u0439 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430 \u0438 \u0432\u0441\u0435\u0433\u043E \u0433\u043E\u0440\u043E\u0434\u0430, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u043C \u0443\u0447\u0430\u0441\u0442\u0432\u0443\u044E\u0442 \u0432\u0441\u0435 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u0435 \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439, \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0435 \u043D\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430 \u0426\u0435\u043D\u0442\u0440\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0440\u0430\u0439\u043E\u043D\u0430 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430. \u0412\u043F\u0435\u0440\u0432\u044B\u0435 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u043F\u0440\u043E\u0448\u0435\u043B \u0432 2022 \u0433\u043E\u0434\u0443."), /*#__PURE__*/react.createElement(components_Paragraph, {
+  }, "Live"), " - \u0435\u0436\u0435\u0433\u043E\u0434\u043D\u044B\u0439 \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0439 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u0434\u043B\u044F \u0436\u0438\u0442\u0435\u043B\u0435\u0439 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430 \u0438 \u0432\u0441\u0435\u0433\u043E \u0433\u043E\u0440\u043E\u0434\u0430."), /*#__PURE__*/react.createElement(components_Paragraph, {
     className: about_module.text
-  }, "\u0418\u0434\u0435\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u0440\u043E\u0434\u0438\u043B\u0430\u0441\u044C \u0432 \u043C\u0443\u043D\u0438\u0446\u0438\u043F\u0430\u043B\u044C\u043D\u043E\u043C \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0438 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u0438\u0439 \u043E\u043A\u0440\u0443\u0433 \u0438 \u0440\u0435\u0430\u043B\u0438\u0437\u0443\u0435\u0442\u0441\u044F \u0435\u0433\u043E \u0441\u0438\u043B\u0430\u043C\u0438. \u041D\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u043A\u0440\u0443\u0433\u0430 \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u0431\u043E\u043B\u0435\u0435 30 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u0445 \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439, \u0441 \u0443\u043B\u0438\u0446\u0430\u043C\u0438 \u043E\u043A\u0440\u0443\u0433\u0430 \u0441\u0432\u044F\u0437\u0430\u043D\u0430 \u0436\u0438\u0437\u043D\u044C \u043C\u043D\u043E\u0433\u0438\u0445 \u043F\u0438\u0441\u0430\u0442\u0435\u043B\u0435\u0439, \u043A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u043E\u0432, \u0430\u043A\u0442\u0435\u0440\u043E\u0432 \u2013 \u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u043E\u0433\u043E, \u0420\u0438\u043C\u0441\u043A\u043E\u0433\u043E-\u041A\u043E\u0440\u0441\u0430\u043A\u043E\u0432\u0430, \u0414\u043E\u0432\u043B\u0430\u0442\u043E\u0432\u0430, \u0420\u0443\u0431\u0438\u043D\u0448\u0442\u0435\u0439\u043D\u0430 \u0438 \u043C\u043D\u043E\u0433\u0438\u0445 \u0434\u0440\u0443\u0433\u0438\u0445."), /*#__PURE__*/react.createElement(components_Paragraph, {
+  }, "\u0418\u0434\u0435\u044F \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F - \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0440\u0430\u0437\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u0438\u0435 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u044B \u0438 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430, \u043F\u0440\u0438 \u044D\u0442\u043E\u043C \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u043C\u0438 \u0438 \u0437\u043D\u0430\u0447\u0438\u043C\u044B\u043C\u0438 \u0434\u043B\u044F \u0432\u0441\u0435\u0445 \u043F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0436\u0446\u0435\u0432. \u0421 \u0443\u043B\u0438\u0446 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430 \u043D\u0430\u0447\u0438\u043D\u0430\u043B\u0430\u0441\u044C \u0438\u0441\u0442\u043E\u0440\u0438\u044F \u0433\u043E\u0440\u043E\u0434\u0430, \u0437\u0434\u0435\u0441\u044C \u0436\u0438\u043B\u0438 \u0438 \u0440\u0430\u0431\u043E\u0442\u0430\u043B\u0438 \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0435 \u043F\u0438\u0441\u0430\u0442\u0435\u043B\u0438, \u043A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u044B, \u0430\u043A\u0442\u0435\u0440\u044B (\u0420\u0430\u0434\u0438\u0449\u0435\u0432, \u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u0438\u0439, \u0420\u0438\u043C\u0441\u043A\u0438\u0439-\u041A\u043E\u0440\u0441\u0430\u043A\u043E\u0432, \u0414\u043E\u0432\u043B\u0430\u0442\u043E\u0432, \u0420\u0443\u0431\u0438\u043D\u0448\u0442\u0435\u0439\u043D, \u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u044B \u043B\u0435\u043D\u0438\u043D\u0433\u0440\u0430\u0434\u0441\u043A\u043E\u0433\u043E \u0440\u043E\u043A-\u043A\u043B\u0443\u0431\u0430, \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0435 \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u044F \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A\u043E\u0432 - \u201C\u041C\u0438\u0442\u044C\u043A\u0438\u201D, \u201C\u0421\u0432\u043E\u0431\u043E\u0434\u043D\u0430\u044F \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0430\u201D \u0438 \u043C\u043D. \u0434\u0440.), \u043D\u0430 \u044D\u0442\u043E\u0439 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u0438 \u0432 \u043D\u0430\u0448\u0438 \u0434\u043D\u0438 \u0441\u043E\u0441\u0440\u0435\u0434\u043E\u0442\u043E\u0447\u0435\u043D\u043E \u0431\u043E\u043B\u0435\u0435 30 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u0445 \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439."), /*#__PURE__*/react.createElement(components_Paragraph, {
     className: about_module.text
   }, /*#__PURE__*/react.createElement(components_TextHighlight, null, "\u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0442\u043E\u0440 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F"), " -", " ", /*#__PURE__*/react.createElement("a", {
     href: "https://\u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u0438\u0439\u043E\u043A\u0440\u0443\u0433.\u0440\u0444/",
@@ -14142,7 +14142,7 @@ var ArtTypes = function ArtTypes() {
   }, /*#__PURE__*/react.createElement(components_Container, null, /*#__PURE__*/react.createElement(components_SectionTitle, {
     className: artTypes_module.title,
     variant: "light"
-  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442 \u0448\u0438\u0440\u043E\u043A\u0438\u0439 \u0441\u043F\u0435\u043A\u0442\u0440 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445 \u0444\u043E\u0440\u043C \u0438 \u0440\u0430\u0437\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0439:"), /*#__PURE__*/react.createElement("ul", {
+  }, "\u041D\u0430 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u0435 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u044B \u0432\u0441\u0435 \u0444\u043E\u0440\u043C\u044B \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u044B \u0438 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430"), /*#__PURE__*/react.createElement("ul", {
     className: artTypes_module.artList
   }, artTypesList.map(function (art) {
     return /*#__PURE__*/react.createElement("li", {
@@ -14194,69 +14194,6 @@ var LazyImage = function LazyImage(_ref) {
   }, rest)));
 };
 /* harmony default export */ var components_LazyImage = (LazyImage);
-;// CONCATENATED MODULE: ./src/hooks/useMatchMedia.ts
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-function useMatchMedia_slicedToArray(arr, i) { return useMatchMedia_arrayWithHoles(arr) || useMatchMedia_iterableToArrayLimit(arr, i) || useMatchMedia_unsupportedIterableToArray(arr, i) || useMatchMedia_nonIterableRest(); }
-function useMatchMedia_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function useMatchMedia_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return useMatchMedia_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return useMatchMedia_arrayLikeToArray(o, minLen); }
-function useMatchMedia_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function useMatchMedia_iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
-function useMatchMedia_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-var initialMatchMedia = {
-  isDesktop: false,
-  isTablet: false,
-  isMobile: false,
-  isMobileMiddle: false,
-  isMobileSmall: false,
-  maxTablet: false,
-  maxMobile: false
-};
-var queries = ["(max-width: 479.98px)", "(min-width: 479.99px) and (max-width: 676.99px)", "(min-width: 677px) and (max-width: 767.96px)", "(min-width: 767.97px) and (max-width: 991.98px)", "(min-width: 991.99px)"];
-var screens = ["isMobileSmall", "isMobileMiddle", "isMobile", "isTablet", "isDesktop"];
-var useMatchMedia = function useMatchMedia() {
-  var queryList = queries.map(function (query) {
-    return matchMedia(query);
-  });
-  var getValues = function getValues() {
-    return queryList.map(function (query) {
-      return query.matches;
-    });
-  };
-  var _useState = (0,react.useState)(getValues),
-    _useState2 = useMatchMedia_slicedToArray(_useState, 2),
-    values = _useState2[0],
-    setValues = _useState2[1];
-  (0,react.useLayoutEffect)(function () {
-    var handler = function handler() {
-      return setValues(getValues);
-    };
-    queryList.forEach(function (query) {
-      return query.addEventListener("change", handler);
-    });
-    return function () {
-      return queryList.forEach(function (query) {
-        return query.removeEventListener("change", handler);
-      });
-    };
-  });
-  var result = screens.reduce(function (acc, screen, index) {
-    return _objectSpread(_objectSpread({}, acc), {}, _defineProperty({}, screen, values[index]));
-  }, initialMatchMedia);
-  if (!result.isDesktop) {
-    result.maxTablet = true;
-  }
-  if (!result.isTablet && !result.isDesktop) {
-    result.maxMobile = true;
-  }
-  return result;
-};
-/* harmony default export */ var hooks_useMatchMedia = (useMatchMedia);
 ;// CONCATENATED MODULE: ./src/assets/img/description/photo-1-small.jpg
 var photo_1_small_namespaceObject = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAKAAn/AAD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/wgARCAAUAB4DASIAAhEAAxEA/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/2gAMAwEAAhADEAAAAZ6j4AtLju1ebFUESuqAr//EAB0QAAICAgMBAAAAAAAAAAAAAAMEAQIAEgUREyL/2gAIAQEAAQUCD7DkDDROP8C2iy583NCzhtlB9ziIO7aRVd77UWnZiRDHP//EACMRAAECBQMFAAAAAAAAAAAAAAEAAgMREiExFDJCUXFyobL/2gAIAQMBAT8B05EARi4XdRTyxOZQmcW6DPtO3t8D9BQ+fcL/xAAfEQACAQIHAAAAAAAAAAAAAAAAAQIDIhEhM0FxcrH/2gAIAQIBAT8BxuybJycVuyOm+y8ZUbt4P//EACkQAAECBAMHBQAAAAAAAAAAAAECEQADEjEhIlETMkFhkaGxBHGBweH/2gAIAQEABj8CSs1tqy8OsTpRmLQpVVGrN1YwlgC9WAOOW7xiG7+HjaGgoLAXwBPu3aJLWmVO5zKUDroOEMAklTIHJzcRMlKXutUzb35iIoDtf5erzHohZ9vbkHiUOFSPqMqQHvH/xAAeEAEAAgMAAwEBAAAAAAAAAAABESEAMUFRYbFxof/aAAgBAQABPyGKB0oDjagNbswoWlqQ0QrHQX2sZWtQIThSivc5PagxOkvJi/uAygBXUdd5RPLKPiagKWLa06SRgEOBXcCzj78OS0IlJB4pqZ1ZdEHbL0fWNbUSunB8ydwlWV3DxZ2Hf3P/2gAMAwEAAgADAAAAEC9YHv/EABoRAQEAAwEBAAAAAAAAAAAAAAERACExQfD/2gAIAQMBAT8QNmhBSNIPBsNdMD2A+la7VO9gYS2aSfDWf//EABsRAQACAwEBAAAAAAAAAAAAAAEAESExQVGB/9oACAECAQE/EBD+iqJiluLoO+F81axO1lEXbt2f/8QAGxABAQADAQEBAAAAAAAAAAAAAREAITFBUWH/2gAIAQEAAT8Q3w7SUV8u4AO6wN5AzhoquyCJUxNda3dIQAlKCTeKQyFU6JHVBT0D8xUaLDR+zgE0+YpmjvwABM1oBZRAsda3ukJ1sxS46BsnxhLMm+kK0UCUXUk/IA8MhTMzekkSCDnMUy0CRsHjd+7y5XAO5b0tau3b7n//2Q==";
 ;// CONCATENATED MODULE: ./src/assets/img/description/photo-1.jpg
@@ -14269,7 +14206,6 @@ var photo_2_namespaceObject = __webpack_require__.p + "static/media/img/photo-2.
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var description_module = ({"section":"description-module__section__Ot1ru","container":"description-module__container__c4YzR","wrapper":"description-module__wrapper__sa42f","textWrapper":"description-module__textWrapper__oRJ9j","text":"description-module__text__ERdBu"});
 ;// CONCATENATED MODULE: ./src/pages/HomePage/Description/index.tsx
-
 
 
 
@@ -14292,18 +14228,12 @@ var Description_Description = function Description() {
 };
 /* harmony default export */ var HomePage_Description = (Description_Description);
 function FirstBlock() {
-  var _useMatchMedia = hooks_useMatchMedia(),
-    isMobileSmall = _useMatchMedia.isMobileSmall;
-  var text = isMobileSmall ? /*#__PURE__*/react.createElement(components_Paragraph, {
-    variant: "light",
-    className: description_module.text
-  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u043D\u0430\u0437\u0432\u0430\u043B\u0438 \u0434\u043E\u0431\u0440\u043E\u0441\u043E\u0441\u0435\u0434\u0441\u043A\u0438\u043C \u2013 \u0433\u043E\u0441\u0442\u0438 \u0438 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u044B \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u043C \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u0438\u043C \u043E\u043A\u0440\u0443\u0433\u043E\u043C.") : /*#__PURE__*/react.createElement(components_Paragraph, {
-    variant: "light",
-    className: description_module.text
-  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u043D\u0430\u0437\u0432\u0430\u043B\u0438 \u0434\u043E\u0431\u0440\u043E\u0441\u043E\u0441\u0435\u0434\u0441\u043A\u0438\u043C \u2013 \u0433\u043E\u0441\u0442\u0438 \u0438 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u044B \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u043C \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u0438\u043C \u043E\u043A\u0440\u0443\u0433\u043E\u043C. \u0413\u043E\u0441\u0442\u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u044E\u0442 \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u0432 \u044D\u043A\u0441\u043A\u0443\u0440\u0441\u0438\u044F\u0445, \u043A\u0432\u0435\u0441\u0442\u0430\u0445, \u0441\u043F\u0435\u043A\u0442\u0430\u043A\u043B\u044F\u0445, \u043B\u0435\u043A\u0446\u0438\u044F\u0445, \u043C\u0430\u0441\u0442\u0435\u0440-\u043A\u043B\u0430\u0441\u0441\u0430\u0445, \u043A\u0438\u043D\u043E\u043F\u043E\u043A\u0430\u0437\u0430\u0445 \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0435 3 \u0434\u043D\u0435\u0439 \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E: \u0432 \u043F\u0435\u0440\u0432\u044B\u0435 2 \u0434\u043D\u044F \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F \u043F\u0440\u043E\u0445\u043E\u0434\u044F\u0442 \u043F\u043E \u0440\u0430\u0437\u043D\u044B\u043C \u043B\u043E\u043A\u0430\u0446\u0438\u044F\u043C \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432 \u2013 \u0442\u0435\u0430\u0442\u0440\u0430\u043C, \u0433\u0430\u043B\u0435\u0440\u0435\u044F\u043C, \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430\u043C, \u043C\u0443\u0437\u0435\u044F\u043C, \u0432 \u0437\u0430\u043A\u043B\u044E\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0434\u0435\u043D\u044C \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442 \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0413\u0430\u043B\u0430-\u043A\u043E\u043D\u0446\u0435\u0440\u0442 \u0432 \u0414\u0436\u0430\u0437\u043E\u0432\u043E\u043C \u0441\u043A\u0432\u0435\u0440\u0435 \u043D\u0430 \u0417\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u043E\u043C \u043F\u0440\u043E\u0441\u043F\u0435\u043A\u0442\u0435.");
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: description_module.textWrapper
-  }, text), /*#__PURE__*/react.createElement(components_LazyImage, {
+  }, /*#__PURE__*/react.createElement(components_Paragraph, {
+    variant: "light",
+    className: description_module.text
+  }, "\u041F\u0435\u0440\u0432\u044B\u0435 2 \u0434\u043D\u044F \u2013 15 \u0438 16 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044F \u2013 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F (\u044D\u043A\u0441\u043A\u0443\u0440\u0441\u0438\u0438, \u043A\u0432\u0435\u0441\u0442\u044B, \u0441\u043F\u0435\u043A\u0442\u0430\u043A\u043B\u0438, \u043B\u0435\u043A\u0446\u0438\u0438, \u043C\u0430\u0441\u0442\u0435\u0440-\u043A\u043B\u0430\u0441\u0441\u044B, \u043A\u043E\u043D\u0446\u0435\u0440\u0442\u044B, \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0438) \u043F\u0440\u043E\u0445\u043E\u0434\u044F\u0442 \u0432 \u043B\u043E\u043A\u0430\u0446\u0438\u044F\u0445 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432 \u043D\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u043A\u0440\u0443\u0433\u0430. 17 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044F - \u0432 \u0437\u0430\u043A\u043B\u044E\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0434\u0435\u043D\u044C \u043D\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u043A\u0440\u0443\u0433\u0430 \u0441\u043E\u0441\u0442\u043E\u0438\u0442\u0441\u044F \u0413\u0430\u043B\u0430-\u043A\u043E\u043D\u0446\u0435\u0440\u0442 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u0438 \u043F\u0440\u0438\u0433\u043B\u0430\u0448\u0435\u043D\u043D\u044B\u0445 \u043F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043A\u0438\u0445 \u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u043E\u0432.")), /*#__PURE__*/react.createElement(components_LazyImage, {
     src: photo_1_namespaceObject,
     placeholderSrc: photo_1_small_namespaceObject,
     width: 630,
@@ -14312,15 +14242,6 @@ function FirstBlock() {
   }));
 }
 function SecondBlock() {
-  var _useMatchMedia2 = hooks_useMatchMedia(),
-    isMobileSmall = _useMatchMedia2.isMobileSmall;
-  var text = isMobileSmall ? /*#__PURE__*/react.createElement(components_Paragraph, {
-    variant: "light",
-    className: description_module.text
-  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u043E\u0441\u043D\u043E\u0432\u0430\u043D \u043D\u0430 \u0438\u0434\u0435\u0435 \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u043C\u0435\u0441\u0442\u043D\u044B\u0445 \u0442\u0430\u043B\u0430\u043D\u0442\u043E\u0432 \u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044F \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E\u0433\u043E \u043F\u043E\u0442\u0435\u043D\u0446\u0438\u0430\u043B\u0430 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430.") : /*#__PURE__*/react.createElement(components_Paragraph, {
-    variant: "light",
-    className: description_module.text
-  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u043E\u0441\u043D\u043E\u0432\u0430\u043D \u043D\u0430 \u0438\u0434\u0435\u0435 \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u043C\u0435\u0441\u0442\u043D\u044B\u0445 \u0442\u0430\u043B\u0430\u043D\u0442\u043E\u0432 \u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044F \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E\u0433\u043E \u043F\u043E\u0442\u0435\u043D\u0446\u0438\u0430\u043B\u0430 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430. \u041E\u043D \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0442 \u0432\u0441\u0435 \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0435 \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0438 \u043E\u043A\u0440\u0443\u0433\u0430 \u0438 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0437\u0440\u0438\u0442\u0435\u043B\u044F\u043C \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0434\u043E\u0441\u0442\u0443\u043F \u043A\u043E \u0432\u0441\u0435\u043C \u0432\u0438\u0434\u0430\u043C \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430 \u2013 \u0442\u0435\u0430\u0442\u0440\u0443, \u043C\u0443\u0437\u0435\u044F\u043C, \u043C\u0430\u0441\u0442\u0435\u0440-\u043A\u043B\u0430\u0441\u0441\u0430\u043C, \u043C\u0443\u0437\u044B\u043A\u0435 - \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E. \u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u2013 \u044D\u0442\u043E \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0434\u043B\u044F \u0436\u0438\u0442\u0435\u043B\u0435\u0439 \u043E\u043A\u0440\u0443\u0433\u0430 \u043D\u0430\u043F\u0438\u0442\u044C\u0441\u044F \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043E\u0439, \u043D\u0435 \u0432\u044B\u0445\u043E\u0434\u044F \u0437\u0430 \u043F\u0440\u0435\u0434\u0435\u043B\u044B \u043E\u043A\u0440\u0443\u0433\u0430.");
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(components_LazyImage, {
     src: photo_2_namespaceObject,
     placeholderSrc: photo_2_small_namespaceObject,
@@ -14329,7 +14250,10 @@ function SecondBlock() {
     alt: ""
   }), /*#__PURE__*/react.createElement("div", {
     className: description_module.textWrapper
-  }, text));
+  }, /*#__PURE__*/react.createElement(components_Paragraph, {
+    variant: "light",
+    className: description_module.text
+  }, "\u0421\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E \u0434\u043B\u044F \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C\u043D\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0433\u043E\u0442\u043E\u0432\u044F\u0442 \u043E\u0441\u043E\u0431\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F. \u0417\u0440\u0438\u0442\u0435\u043B\u0438 \u0443\u0432\u0438\u0434\u044F\u0442 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u044B, \u043F\u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0438, \u044D\u043A\u0441\u043A\u0443\u0440\u0441\u0438\u0438 \u0438 \u043A\u043E\u043D\u0446\u0435\u0440\u0442\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0443\u0432\u0438\u0434\u0435\u0442\u044C \u0432 \u0434\u0440\u0443\u0433\u043E\u0439 \u0434\u0435\u043D\u044C.")));
 }
 // EXTERNAL MODULE: ./node_modules/react-slick/lib/index.js
 var lib = __webpack_require__(6066);
@@ -14337,12 +14261,12 @@ var lib = __webpack_require__(6066);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var slider_module = ({"dots":"slider-module__dots__J52og"});
 ;// CONCATENATED MODULE: ./src/components/Slider/Slider.tsx
-function Slider_typeof(obj) { "@babel/helpers - typeof"; return Slider_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, Slider_typeof(obj); }
-function Slider_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function Slider_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? Slider_ownKeys(Object(source), !0).forEach(function (key) { Slider_defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : Slider_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-function Slider_defineProperty(obj, key, value) { key = Slider_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function Slider_toPropertyKey(arg) { var key = Slider_toPrimitive(arg, "string"); return Slider_typeof(key) === "symbol" ? key : String(key); }
-function Slider_toPrimitive(input, hint) { if (Slider_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (Slider_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 
 
 
@@ -14365,7 +14289,7 @@ var Slider = function Slider(_ref) {
     slideClassName = _ref.slideClassName,
     _ref$settings = _ref.settings,
     settings = _ref$settings === void 0 ? {} : _ref$settings;
-  var sliderSettings = Slider_objectSpread(Slider_objectSpread(Slider_objectSpread({}, SLIDER_DEFAULT_SETTINGS), settings), {}, {
+  var sliderSettings = _objectSpread(_objectSpread(_objectSpread({}, SLIDER_DEFAULT_SETTINGS), settings), {}, {
     dotsClass: "slick-dots ".concat(dist_clsx(slider_module.dots, settings.dotsClass))
   });
   return /*#__PURE__*/react.createElement(lib/* default */.Z, sliderSettings, slides.map(function (_ref2) {
@@ -14536,7 +14460,6 @@ var GallerySlider = function GallerySlider() {
 
 
 
-
 var Influence = function Influence() {
   return /*#__PURE__*/react.createElement("section", {
     className: influence_module.section
@@ -14546,13 +14469,7 @@ var Influence = function Influence() {
     className: influence_module.description
   }, /*#__PURE__*/react.createElement(components_Paragraph, {
     className: influence_module.text
-  }, /*#__PURE__*/react.createElement(components_TextHighlight, null, "\"\u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u0438\u0439"), " ", /*#__PURE__*/react.createElement(components_TextHighlight, {
-    variant: "danger"
-  }, "Live"), "\"", " ", /*#__PURE__*/react.createElement(components_TextHighlight, null, "\u0438\u0433\u0440\u0430\u0435\u0442 \u0437\u043D\u0430\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u0443\u044E \u0440\u043E\u043B\u044C"), " ", "\u0432 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0438 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E\u0439 \u0441\u0444\u0435\u0440\u044B \u0433\u043E\u0440\u043E\u0434\u0430 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u0438 \u043F\u0440\u0438\u0432\u043B\u0435\u0447\u0435\u043D\u0438\u0438 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044F \u043A \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u043E\u043C\u0443 \u043F\u043E\u0442\u0435\u043D\u0446\u0438\u0430\u043B\u0443 \u0440\u0435\u0433\u0438\u043E\u043D\u0430."), /*#__PURE__*/react.createElement(components_Paragraph, {
-    className: influence_module.text
-  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C", " ", /*#__PURE__*/react.createElement(components_TextHighlight, null, "\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044C\u0441\u044F \u0438 \u043F\u0440\u0438\u0432\u043B\u0435\u043A\u0430\u0442\u044C \u0432\u0441\u0435 \u0431\u043E\u043B\u044C\u0448\u0435 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432"), " ", "\u2014 \u0432 2023 \u0433\u043E\u0434\u0443 \u0432 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F\u0445 \u0443\u0447\u0430\u0441\u0442\u0432\u0443\u0435\u0442 \u0431\u043E\u043B\u044C\u0448\u0435 30 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u0445 \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439."), /*#__PURE__*/react.createElement(components_Paragraph, {
-    className: influence_module.text
-  }, "\u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0442\u043E\u0440\u044B \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F", " ", /*#__PURE__*/react.createElement(components_TextHighlight, null, "\u0441\u0442\u0440\u0435\u043C\u044F\u0442\u0441\u044F \u0443\u043A\u0440\u0435\u043F\u0438\u0442\u044C \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0435\u0441\u0442\u0432\u043E"), " ", "\u0441 \u0434\u0440\u0443\u0433\u0438\u043C\u0438 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u044B\u043C\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u044F\u043C\u0438 \u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F\u043C\u0438 \u0432 \u0420\u043E\u0441\u0441\u0438\u0438 \u0438 \u0437\u0430 \u0435\u0435 \u043F\u0440\u0435\u0434\u0435\u043B\u0430\u043C\u0438."))));
+  }, "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u0434\u0430\u0435\u0442 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u043F\u0440\u043E\u0447\u0443\u0432\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u043A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u043E\u0435 \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u043E, \u0432\u0434\u043E\u0445\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u043E\u0435 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043E\u0439 \u0438 \u0436\u0438\u0442\u0435\u043B\u044F\u043C\u0438 \u044D\u0442\u0438\u0445 \u043C\u0435\u0441\u0442, \u043F\u0440\u043E\u043D\u0438\u043A\u043D\u0443\u0442\u044C\u0441\u044F \u043E\u0441\u043E\u0431\u044B\u043C \u0434\u0443\u0445\u043E\u043C \u043F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043A\u043E\u0433\u043E \u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E\u0433\u043E \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u0430 \u0438 \u043E\u0441\u043E\u0437\u043D\u0430\u0442\u044C \u0441\u0435\u0431\u044F \u043F\u0440\u0438\u0447\u0430\u0441\u0442\u043D\u044B\u043C \u043A \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u043E\u0439 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0435 \u043E\u043A\u0440\u0443\u0433\u0430 \u0438 \u0433\u043E\u0440\u043E\u0434\u0430 \u0447\u0435\u0440\u0435\u0437 \u043C\u0435\u0441\u0442\u043D\u043E\u0435 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E\u0435 \u043D\u0430\u0441\u043B\u0435\u0434\u0438\u0435."))));
 };
 /* harmony default export */ var HomePage_Influence = (Influence);
 ;// CONCATENATED MODULE: ./src/components/Timer/TimerCount/timerCount.module.scss
@@ -14675,11 +14592,75 @@ var Timer = function Timer(_ref) {
       countClassName: countClassName,
       labelClassName: labelCountClassName,
       label: countLabel,
-      count: number
+      count: number,
+      key: countLabel
     });
   })));
 };
 /* harmony default export */ var components_Timer = (Timer);
+;// CONCATENATED MODULE: ./src/hooks/useMatchMedia.ts
+function useMatchMedia_typeof(obj) { "@babel/helpers - typeof"; return useMatchMedia_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, useMatchMedia_typeof(obj); }
+function useMatchMedia_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function useMatchMedia_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? useMatchMedia_ownKeys(Object(source), !0).forEach(function (key) { useMatchMedia_defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : useMatchMedia_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function useMatchMedia_defineProperty(obj, key, value) { key = useMatchMedia_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function useMatchMedia_toPropertyKey(arg) { var key = useMatchMedia_toPrimitive(arg, "string"); return useMatchMedia_typeof(key) === "symbol" ? key : String(key); }
+function useMatchMedia_toPrimitive(input, hint) { if (useMatchMedia_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (useMatchMedia_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function useMatchMedia_slicedToArray(arr, i) { return useMatchMedia_arrayWithHoles(arr) || useMatchMedia_iterableToArrayLimit(arr, i) || useMatchMedia_unsupportedIterableToArray(arr, i) || useMatchMedia_nonIterableRest(); }
+function useMatchMedia_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function useMatchMedia_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return useMatchMedia_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return useMatchMedia_arrayLikeToArray(o, minLen); }
+function useMatchMedia_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function useMatchMedia_iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function useMatchMedia_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+var initialMatchMedia = {
+  isDesktop: false,
+  isTablet: false,
+  isMobile: false,
+  isMobileMiddle: false,
+  isMobileSmall: false,
+  maxTablet: false,
+  maxMobile: false
+};
+var queries = ["(max-width: 479.98px)", "(min-width: 479.99px) and (max-width: 676.99px)", "(min-width: 677px) and (max-width: 767.96px)", "(min-width: 767.97px) and (max-width: 991.98px)", "(min-width: 991.99px)"];
+var screens = ["isMobileSmall", "isMobileMiddle", "isMobile", "isTablet", "isDesktop"];
+var useMatchMedia = function useMatchMedia() {
+  var queryList = queries.map(function (query) {
+    return matchMedia(query);
+  });
+  var getValues = function getValues() {
+    return queryList.map(function (query) {
+      return query.matches;
+    });
+  };
+  var _useState = (0,react.useState)(getValues),
+    _useState2 = useMatchMedia_slicedToArray(_useState, 2),
+    values = _useState2[0],
+    setValues = _useState2[1];
+  (0,react.useLayoutEffect)(function () {
+    var handler = function handler() {
+      return setValues(getValues);
+    };
+    queryList.forEach(function (query) {
+      return query.addEventListener("change", handler);
+    });
+    return function () {
+      return queryList.forEach(function (query) {
+        return query.removeEventListener("change", handler);
+      });
+    };
+  });
+  var result = screens.reduce(function (acc, screen, index) {
+    return useMatchMedia_objectSpread(useMatchMedia_objectSpread({}, acc), {}, useMatchMedia_defineProperty({}, screen, values[index]));
+  }, initialMatchMedia);
+  if (!result.isDesktop) {
+    result.maxTablet = true;
+  }
+  if (!result.isTablet && !result.isDesktop) {
+    result.maxMobile = true;
+  }
+  return result;
+};
+/* harmony default export */ var hooks_useMatchMedia = (useMatchMedia);
 ;// CONCATENATED MODULE: ./src/assets/img/fest-cover.png
 var fest_cover_namespaceObject = __webpack_require__.p + "static/media/img/fest-cover.87ca5d2da4fa1412a779.png";
 ;// CONCATENATED MODULE: ./src/pages/HomePage/Intro/intro.module.scss
@@ -14950,13 +14931,7 @@ var Participants = function Participants() {
     className: participants_module.participants
   }, /*#__PURE__*/react.createElement(components_TextHighlight, {
     variant: "dark"
-  }, "\u0423\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u0432 2022 \u0433\u043E\u0434\u0443:"), " ", "\u0424\u0438\u043B\u0430\u0440\u043C\u043E\u043D\u0438\u044F \u0434\u0436\u0430\u0437\u043E\u0432\u043E\u0439 \u043C\u0443\u0437\u044B\u043A\u0438, \u0422\u0435\u0430\u0442\u0440 \u0438\u043C. \u041B\u0435\u043D\u0441\u043E\u0432\u0435\u0442\u0430, \u0442\u0435\u0430\u0442\u0440\u044B \xAB\u0421\u0443\u0431\u0431\u043E\u0442\u0430\xBB, \xAB\u041A\u0443\u043A\u0444\u043E\xBB, \xABKarlsson Haus\xBB, \xAB\u0421\u043E\u0432\u0430\xBB, \xAB\u0415\u0440\u0443\u043D\u0434\u043E\u043F\u0435\u043B\u044C\xBB, \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0438 \u041C\u0430\u044F\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E, \xAB\u041D\u0430 \u0421\u0442\u0440\u0435\u043C\u044F\u043D\u043D\u043E\u0439\xBB, \xAB\u041B\u0438\u0433\u043E\u0432\u0441\u043A\u0430\u044F\xBB \u0438 \u041E\u0442\u043A\u0440\u044B\u0442\u044B\u0435 \u043C\u0430\u0441\u0442\u0435\u0440\u0441\u043A\u0438\u0435, \u041C\u0443\u0437\u0435\u0439 \u0410\u0440\u043A\u0442\u0438\u043A\u0438 \u0438 \u0410\u043D\u0442\u0430\u0440\u043A\u0442\u0438\u043A\u0438, \u041C\u0443\u0437\u0435\u0439 \u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u043E\u0433\u043E, \u041B\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043D\u044B\u0439 \u043C\u0443\u0437\u0435\u0439 XX \u0432\u0435\u043A, \u041C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u0430\u043A\u0442\u0435\u0440\u043E\u0432 \u0421\u0430\u043C\u043E\u0439\u043B\u043E\u0432\u044B\u0445, \u0410\u0440\u0442-\u0446\u0435\u043D\u0442\u0440 \xAB\u041F\u0443\u0448\u043A\u0438\u043D\u0441\u043A\u0430\u044F-10\xBB, \u0411\u043B\u0430\u0433\u043E\u0442\u0432\u043E\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0444\u043E\u043D\u0434 \xAB\u041F\u043E\u0434\u0430\u0440\u0438 \u043C\u043D\u0435 \u043A\u0440\u044B\u043B\u044C\u044F\xBB, \u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442 \u043A\u0438\u043D\u043E \u0438 \u0442\u0435\u043B\u0435\u0432\u0438\u0434\u0435\u043D\u0438\u044F, \u0428\u043A\u043E\u043B\u0430 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432 \u0438\u043C\u0435\u043D\u0438 \u041F.\u0410. \u0421\u0435\u0440\u0435\u0431\u0440\u044F\u043A\u043E\u0432\u0430, \u0433\u0440\u0443\u043F\u043F\u0430 \xAB\u0410\u043D\u0433\u0435\u043B \u041D\u0435\u0411\u0435\u0441\xBB, \xAB\u041B\u0435\u043D\u0438\u043D\u0433\u0440\u0430\u0434\u0441\u043A\u0438\u0439 \u0434\u0438\u043A\u0441\u0438\u043B\u0435\u043D\u0434\xBB \u043F\u043E\u0434 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435\u043C \u0437\u0430\u0441\u043B\u0443\u0436\u0435\u043D\u043D\u043E\u0433\u043E \u0430\u0440\u0442\u0438\u0441\u0442\u0430 \u0420\u0424 \u041E. \u041A\u0443\u0432\u0430\u0439\u0446\u0435\u0432\u0430, \u0433\u0440\u0443\u043F\u043F\u0430 \xAB\u0421\u0442\u0430\u044F \u041F\u041E\u041B\u0415\u0422\u0415\u041B\u0418\xBB \u0438 \u0437\u0430\u0441\u043B\u0443\u0436\u0435\u043D\u043D\u044B\u0439 \u0430\u0440\u0442\u0438\u0441\u0442 \u0420\u0424 \u0410\u0440\u0442\u0443\u0440 \u0412\u0430\u0445\u0430, \u0412\u0418\u0410 \xAB\u041F\u0440\u043E\u043B\u0435\u0442\u0430\u0440\u0441\u043A\u043E\u0435 \u0442\u0430\u043D\u0433\u043E\xBB.")), /*#__PURE__*/react.createElement("div", {
-    className: participants_module.wrapper
-  }, /*#__PURE__*/react.createElement(components_Paragraph, {
-    className: participants_module.participants
-  }, /*#__PURE__*/react.createElement(components_TextHighlight, {
-    variant: "dark"
-  }, "\u0423\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u0432 2023 \u0433\u043E\u0434\u0443:"), " ", "\u0424\u0438\u043B\u0430\u0440\u043C\u043E\u043D\u0438\u044F \u0434\u0436\u0430\u0437\u043E\u0432\u043E\u0439 \u043C\u0443\u0437\u044B\u043A\u0438, \u0422\u0435\u0430\u0442\u0440 \u0438\u043C. \u041B\u0435\u043D\u0441\u043E\u0432\u0435\u0442\u0430, \u0442\u0435\u0430\u0442\u0440\u044B \xAB\u0421\u0443\u0431\u0431\u043E\u0442\u0430\xBB, \xAB\u041A\u0443\u043A\u0444\u043E\xBB, \xABKarlsson Haus\xBB, \xAB\u0421\u043E\u0432\u0430\xBB, \xAB\u0415\u0440\u0443\u043D\u0434\u043E\u043F\u0435\u043B\u044C\xBB, \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0438 \u041C\u0430\u044F\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E, \xAB\u041D\u0430 \u0421\u0442\u0440\u0435\u043C\u044F\u043D\u043D\u043E\u0439\xBB, \xAB\u041B\u0438\u0433\u043E\u0432\u0441\u043A\u0430\u044F\xBB \u0438 \u041E\u0442\u043A\u0440\u044B\u0442\u044B\u0435 \u043C\u0430\u0441\u0442\u0435\u0440\u0441\u043A\u0438\u0435, \u041C\u0443\u0437\u0435\u0439 \u0410\u0440\u043A\u0442\u0438\u043A\u0438 \u0438 \u0410\u043D\u0442\u0430\u0440\u043A\u0442\u0438\u043A\u0438, \u041C\u0443\u0437\u0435\u0439 \u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u043E\u0433\u043E, \u041B\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043D\u044B\u0439 \u043C\u0443\u0437\u0435\u0439 XX \u0432\u0435\u043A, \u041C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u0430\u043A\u0442\u0435\u0440\u043E\u0432 \u0421\u0430\u043C\u043E\u0439\u043B\u043E\u0432\u044B\u0445, \u041C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u041B\u044C\u0432\u0430 \u0413\u0443\u043C\u0438\u043B\u0435\u0432\u0430, \u043C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u0420\u0438\u043C\u0441\u043A\u043E\u0433\u043E-\u041A\u043E\u0440\u0441\u0430\u043A\u043E\u0432\u0430, \u0410\u0440\u0442-\u0446\u0435\u043D\u0442\u0440 \xAB\u041F\u0443\u0448\u043A\u0438\u043D\u0441\u043A\u0430\u044F-10\xBB, \u0411\u043B\u0430\u0433\u043E\u0442\u0432\u043E\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0444\u043E\u043D\u0434 \xAB\u041F\u043E\u0434\u0430\u0440\u0438 \u043C\u043D\u0435 \u043A\u0440\u044B\u043B\u044C\u044F\xBB, \u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442 \u043A\u0438\u043D\u043E \u0438 \u0442\u0435\u043B\u0435\u0432\u0438\u0434\u0435\u043D\u0438\u044F, \u0428\u043A\u043E\u043B\u0430 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432 \u0438\u043C\u0435\u043D\u0438 \u041F.\u0410. \u0421\u0435\u0440\u0435\u0431\u0440\u044F\u043A\u043E\u0432\u0430, \u0433\u0430\u043B\u0435\u0440\u0435\u044F \u0417\u0430\u0440\u0435\u043D\u043A\u043E\u0432\u0430, \u0426\u0435\u043D\u0442\u0440 \u041A\u0443\u0440\u0435\u0445\u0438\u043D\u0430, \xAB\u041B\u0435\u043D\u0438\u043D\u0433\u0440\u0430\u0434\u0441\u043A\u0438\u0439 \u0434\u0438\u043A\u0441\u0438\u043B\u0435\u043D\u0434\xBB, \u0433\u0440\u0443\u043F\u043F\u0430 \u0422\u043E\u0440\u0431\u0430-\u043D\u0430-\u041A\u0440\u0443\u0447\u0435, \u0433\u0440\u0443\u043F\u043F\u0430 Markscheider Kunst"))));
+  }, "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F:"), " ", "\u0424\u0438\u043B\u0430\u0440\u043C\u043E\u043D\u0438\u044F \u0434\u0436\u0430\u0437\u043E\u0432\u043E\u0439 \u043C\u0443\u0437\u044B\u043A\u0438, \u0422\u0435\u0430\u0442\u0440 \u0438\u043C. \u041B\u0435\u043D\u0441\u043E\u0432\u0435\u0442\u0430, \u0442\u0435\u0430\u0442\u0440\u044B \xAB\u0421\u0443\u0431\u0431\u043E\u0442\u0430\xBB, \xAB\u041A\u0443\u043A\u0444\u043E\xBB, \xABKarlsson Haus\xBB, \xAB\u0415\u0440\u0443\u043D\u0434\u043E\u043F\u0435\u043B\u044C\xBB, \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0438 \u041C\u0430\u044F\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E, \xAB\u041D\u0430 \u0421\u0442\u0440\u0435\u043C\u044F\u043D\u043D\u043E\u0439\xBB, \xAB\u041B\u0438\u0433\u043E\u0432\u0441\u043A\u0430\u044F\xBB \u0438 \u041E\u0442\u043A\u0440\u044B\u0442\u044B\u0435 \u043C\u0430\u0441\u0442\u0435\u0440\u0441\u043A\u0438\u0435, \u041C\u0443\u0437\u0435\u0439 \u0410\u0440\u043A\u0442\u0438\u043A\u0438 \u0438 \u0410\u043D\u0442\u0430\u0440\u043A\u0442\u0438\u043A\u0438, \u041C\u0443\u0437\u0435\u0439 \u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u043E\u0433\u043E, \u041B\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043D\u044B\u0439 \u043C\u0443\u0437\u0435\u0439 XX \u0432\u0435\u043A, \u041C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u0430\u043A\u0442\u0435\u0440\u043E\u0432 \u0421\u0430\u043C\u043E\u0439\u043B\u043E\u0432\u044B\u0445, \u041C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u041B\u044C\u0432\u0430 \u0413\u0443\u043C\u0438\u043B\u0435\u0432\u0430, \u043C\u0443\u0437\u0435\u0439-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u0420\u0438\u043C\u0441\u043A\u043E\u0433\u043E-\u041A\u043E\u0440\u0441\u0430\u043A\u043E\u0432\u0430, \u0410\u0440\u0442-\u0446\u0435\u043D\u0442\u0440 \xAB\u041F\u0443\u0448\u043A\u0438\u043D\u0441\u043A\u0430\u044F-10\xBB, \u0411\u043B\u0430\u0433\u043E\u0442\u0432\u043E\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0444\u043E\u043D\u0434 \xAB\u041F\u043E\u0434\u0430\u0440\u0438 \u043C\u043D\u0435 \u043A\u0440\u044B\u043B\u044C\u044F\xBB, \u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442 \u043A\u0438\u043D\u043E \u0438 \u0442\u0435\u043B\u0435\u0432\u0438\u0434\u0435\u043D\u0438\u044F, \u0428\u043A\u043E\u043B\u0430 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432 \u0438\u043C\u0435\u043D\u0438 \u041F.\u0410. \u0421\u0435\u0440\u0435\u0431\u0440\u044F\u043A\u043E\u0432\u0430, \u0433\u0430\u043B\u0435\u0440\u0435\u044F \u0417\u0430\u0440\u0435\u043D\u043A\u043E\u0432\u0430, \u0426\u0435\u043D\u0442\u0440 \u041A\u0443\u0440\u0435\u0445\u0438\u043D\u0430, \xAB\u041B\u0435\u043D\u0438\u043D\u0433\u0440\u0430\u0434\u0441\u043A\u0438\u0439 \u0434\u0438\u043A\u0441\u0438\u043B\u0435\u043D\u0434\xBB \u0438 \u0434\u0440\u0443\u0433\u0438\u0435."))));
 };
 /* harmony default export */ var HomePage_Participants = (Participants);
 ;// CONCATENATED MODULE: ./src/assets/img/quote-author.jpg
@@ -15014,6 +14989,136 @@ function QuoteContent() {
     }
   }, "\u0427\u0438\u0442\u0430\u0442\u044C \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E"));
 }
+;// CONCATENATED MODULE: ./src/pages/HomePage/Schedule/schedule.data.ts
+var scheduleData = [{
+  date: "15 сентября, пятница",
+  key: 1,
+  events: [{
+    key: 1,
+    time: "14:00",
+    description: "\u041E\u0442\u043A\u0440\u044B\u0442\u0438\u0435 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u0432 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0435 \u0438\u043C. \u041C\u0430\u044F\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E:\n                \u043F\u0440\u0435\u0441\u0441-\u043A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u044F \u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u0441 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u044F\u043C\u0438 \u0437\u043D\u0430\u0447\u0438\u043C\u044B\u0445\n                \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0439 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u043E\u043A\u0440\u0443\u0433\u0430 - \u043F\u0435\u0440\u0432\u044B\u043C\n                \u043F\u0440\u0435\u0437\u0438\u0434\u0435\u043D\u0442\u043E\u043C \u043B\u0435\u043D\u0438\u043D\u0433\u0440\u0430\u0434\u0441\u043A\u043E\u0433\u043E \u0440\u043E\u043A-\u043A\u043B\u0443\u0431\u0430, \u043E\u0441\u043D\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u043C\n                \u0430\u0440\u0442-\u0433\u0440\u0443\u043F\u043F\u044B \u201C\u041C\u0438\u0442\u044C\u043A\u0438\u201D, \u043E\u0441\u043D\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u043C \u0430\u0440\u0442-\u0446\u0435\u043D\u0442\u0440\u0430 \u201C\u041F\u0443\u0448\u043A\u0438\u043D\u0441\u043A\u0430\u044F\n                10\u201D, \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0430\u043C\u0438 \u043A\u043B\u0443\u0431\u0430 \u201C\u0413\u0440\u0438\u0431\u043E\u0435\u0434\u043E\u0432\u201D \u0438 \u0446\u0435\u043D\u0442\u0440\u0430 \u0415\u043B\u0435\u043D\u044B\n                \u041E\u0431\u0440\u0430\u0437\u0446\u043E\u0432\u043E\u0439."
+  }, {
+    key: 2,
+    time: "16:00",
+    description: "\u041E\u0431\u0437\u043E\u0440\u043D\u0430\u044F \u044D\u043A\u0441\u043A\u0443\u0440\u0441\u0438\u044F \u043F\u043E \u043C\u0443\u0437\u0435\u044E-\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0435 \u041D. \u0410.\n                \u0420\u0438\u043C\u0441\u043A\u043E\u0433\u043E-\u041A\u043E\u0440\u0441\u0430\u043A\u043E\u0432\u0430."
+  }, {
+    key: 3,
+    time: "19:00",
+    description: "\u0421\u043F\u0435\u043A\u0442\u0430\u043A\u043B\u044C \"\u0424\u0430\u043B\u044C\u0448\u0438\u0432\u0430\u044F \u043D\u043E\u0442\u0430\" \u0432 \u0442\u0435\u0430\u0442\u0440\u0435 \u0438\u043C.\n                \u041B\u0435\u043D\u0441\u043E\u0432\u0435\u0442\u0430."
+  }, {
+    key: 4,
+    time: "20:00",
+    description: "\u041F\u043E\u043A\u0430\u0437 \u043C\u0443\u043B\u044C\u0442\u0444\u0438\u043B\u044C\u043C\u043E\u0432 \u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043E\u0432 \u0421\u041F\u0431\u0413\u0418\u041A\u0438\u0422 (\u0438\u043D\u0441\u0442\u0438\u0442\u0443\u0442\u0430 \u043A\u0438\u043D\u043E \u0438 \u0442\u0435\u043B\u0435\u0432\u0438\u0434\u0435\u043D\u0438\u044F) \u0434\u0432\u043E\u0440\u0435 \u041C\u0430\u0440\u0430\u0442\u0430, 30."
+  }]
+}, {
+  date: "16 сентября, суббота",
+  key: 2,
+  events: [{
+    key: 5,
+    time: "15:00",
+    description: "\u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u0430\u043D\u0441\u0430\u043C\u0431\u043B\u044F \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440\u0441\u043A\u043E\u0433\u043E \u0441\u043E\u0431\u043E\u0440\u0430 \u201C\u0420\u0443\u0441\u0441\u043A\u0430\u044F \u043F\u0435\u0441\u043D\u044F\u201D \u0432 Zarenkov Gallery."
+  }, {
+    key: 6,
+    time: "16:00",
+    description: "\u041B\u0435\u043A\u0446\u0438\u044F \xAB\u041C\u0435\u0447\u0442\u044B \u043E \u041B\u0435\u043D\u0438\u043D\u0433\u0440\u0430\u0434\u0435\xBB, \u043F\u043E\u0441\u0432\u044F\u0449\u0451\u043D\u043D\u0430\u044F \u043D\u0435\u0440\u0435\u0430\u043B\u0438\u0437\u043E\u0432\u0430\u043D\u043D\u044B\u043C \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u043E-\u0433\u0440\u0430\u0434\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u043C \u043F\u043B\u0430\u043D\u0430\u043C \u0441\u043E\u0432\u0435\u0442\u0441\u043A\u043E\u0439 \u044D\u043F\u043E\u0445\u0438 \u0432 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0435 \u201C\u041D\u0430 \u0421\u0442\u0440\u0435\u043C\u044F\u043D\u043D\u043E\u0439\u201D."
+  }, {
+    key: 7,
+    time: "16:00",
+    description: "\u041A\u043E\u043D\u0446\u0435\u043F\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0439 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044C \u0432\u043E \u0434\u0432\u043E\u0440\u0435 \u0430\u0440\u0442-\u0446\u0435\u043D\u0442\u0440\u0430 \u201C\u041F\u0443\u0448\u043A\u0438\u043D\u0441\u043A\u0430\u044F 10\u201D - \u0432\u044B\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u0435 5 \u0430\u0440\u0442\u0438\u0441\u0442\u043E\u0432 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0445 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439 \u0440\u043E\u043A-\u043C\u0443\u0437\u044B\u043A\u0438, \u0432\u043A\u043B\u044E\u0447\u0430\u044F \u043F\u0440\u043E\u0435\u043A\u0442 \u041E\u043B\u0435\u0433\u0430 \u0421\u0430\u043A\u043C\u0430\u0440\u043E\u0432\u0430 (\u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u0438 \u0433\u0440\u0443\u043F\u043F\u044B \u201C\u0410\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u201D \u0440\u0430\u0437\u043D\u044B\u0445 \u043B\u0435\u0442)."
+  }, {
+    key: 8,
+    time: "17:00",
+    description: "\u041B\u0435\u043A\u0446\u0438\u044F \u0438\u0441\u0442\u043E\u0440\u0438\u043A\u0430 \u041B\u044C\u0432\u0430 \u041B\u0443\u0440\u044C\u0435 \u201C\u041F\u0440\u0438\u0434\u0432\u043E\u0440\u043D\u0430\u044F \u0441\u043B\u043E\u0431\u043E\u0434\u0430 \u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430\u201D \u0432 \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0435 \u0438\u043C. \u041C\u0430\u044F\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E."
+  }, {
+    key: 9,
+    time: "17:30",
+    description: "\u0441\u043F\u0435\u043A\u0442\u0430\u043A\u043B\u044C \u201C\u0410\u043B\u0435\u043D\u044C\u043A\u0438\u0439 \u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A\u201D \u0432 \u0442\u0435\u0430\u0442\u0440\u0435 \u201C\u041A\u0423\u041A\u0424\u041E\u201D."
+  }, {
+    key: 10,
+    time: "19:00",
+    description: "\u201C\u0412\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u0439 \u0428\u043E\u043F\u0435\u043D\u201D - \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043D\u044B\u0439 \u0432\u0435\u0447\u0435\u0440 \u0432 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E\u043C \u0446\u0435\u043D\u0442\u0440\u0435 \u0415\u043B\u0435\u043D\u044B \u041E\u0431\u0440\u0430\u0437\u0446\u043E\u0432\u043E\u0439."
+  }]
+}];
+var concertParticipants = [{
+  key: 1,
+  name: "“Торба-на-круче”"
+}, {
+  key: 2,
+  name: "Markscheider Kunst"
+}, {
+  key: 3,
+  name: "Саша Алмазова"
+}, {
+  key: 4,
+  name: "Диксиленд джазовой филармонии (дирижер - О.Кувайцев) и др."
+}];
+;// CONCATENATED MODULE: ./src/pages/HomePage/Schedule/schedule.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ var schedule_module = ({"section":"schedule-module__section__UwOnI","title":"schedule-module__title__kquvT","link":"schedule-module__link__z1Tcm","subtitle":"schedule-module__subtitle__cBHI5","schedule":"schedule-module__schedule__X9Cr4","date":"schedule-module__date__yjUsQ","event":"schedule-module__event__JV1CV","jazzTitle":"schedule-module__jazzTitle__CNWk7"});
+;// CONCATENATED MODULE: ./src/pages/HomePage/Schedule/index.tsx
+
+
+
+
+
+
+var Schedule = function Schedule() {
+  return /*#__PURE__*/react.createElement("section", {
+    className: schedule_module.section,
+    id: "schedule"
+  }, /*#__PURE__*/react.createElement(components_Container, null, /*#__PURE__*/react.createElement(components_SectionTitle, {
+    className: schedule_module.title
+  }, "\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F"), /*#__PURE__*/react.createElement("h4", {
+    className: schedule_module.subtitle
+  }, "\u041D\u0430\u0438\u0431\u043E\u043B\u0435\u0435 \u044F\u0440\u043A\u0438\u0435 \u0438 \u0437\u043D\u0430\u0447\u0438\u043C\u044B\u0435 \u0441\u043E\u0431\u044B\u0442\u0438\u044F \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F 2023 \u0433\u043E\u0434\u0430:"), scheduleData.map(function (schedule) {
+    return /*#__PURE__*/react.createElement(Events, {
+      key: schedule.key,
+      schedule: schedule
+    });
+  }), /*#__PURE__*/react.createElement(ConcertSchedule, null), /*#__PURE__*/react.createElement(components_Paragraph, null, /*#__PURE__*/react.createElement("a", {
+    className: schedule_module.link,
+    href: "https://vk.com/vladimokspb",
+    target: "_blank",
+    rel: "noreferrer"
+  }, "\u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430 \u043D\u0430 \u043E\u0444\u0438\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0430\u0445 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F"))));
+};
+/* harmony default export */ var HomePage_Schedule = (Schedule);
+function Events(_ref) {
+  var schedule = _ref.schedule;
+  var date = schedule.date,
+    events = schedule.events;
+  return /*#__PURE__*/react.createElement("div", {
+    className: schedule_module.schedule
+  }, /*#__PURE__*/react.createElement("h5", {
+    className: schedule_module.date
+  }, date, ":"), /*#__PURE__*/react.createElement("ul", null, events.map(function (_ref2) {
+    var description = _ref2.description,
+      time = _ref2.time,
+      key = _ref2.key;
+    return /*#__PURE__*/react.createElement("li", {
+      className: schedule_module.event,
+      key: key
+    }, /*#__PURE__*/react.createElement("span", null, time), " ", /*#__PURE__*/react.createElement(components_Paragraph, null, "\u2014 ", description));
+  })));
+}
+function ConcertSchedule() {
+  return /*#__PURE__*/react.createElement("div", {
+    className: schedule_module.schedule
+  }, /*#__PURE__*/react.createElement("h5", {
+    className: schedule_module.date
+  }, "17 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044F, \u0432\u043E\u0441\u043A\u0440\u0435\u0441\u0435\u043D\u044C\u0435"), /*#__PURE__*/react.createElement("h6", {
+    className: schedule_module.jazzTitle
+  }, "\u0413\u0430\u043B\u0430-\u043A\u043E\u043D\u0446\u0435\u0440\u0442 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F \u0432 \u0414\u0436\u0430\u0437\u043E\u0432\u043E\u043C \u0441\u043A\u0432\u0435\u0440\u0435:"), /*#__PURE__*/react.createElement("ul", {
+    className: schedule_module.jazzList
+  }, concertParticipants.map(function (_ref3) {
+    var key = _ref3.key,
+      name = _ref3.name;
+    return /*#__PURE__*/react.createElement("li", {
+      key: key,
+      className: schedule_module.event
+    }, /*#__PURE__*/react.createElement(components_Paragraph, null, "\u2014 ", name));
+  })));
+}
 ;// CONCATENATED MODULE: ./src/pages/HomePage/index.tsx
 
 
@@ -15025,8 +15130,9 @@ function QuoteContent() {
 
 
 
+
 var HomePage = function HomePage() {
-  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(HomePage_Intro, null), /*#__PURE__*/react.createElement(HomePage_About, null), /*#__PURE__*/react.createElement(HomePage_ArtTypes, null), /*#__PURE__*/react.createElement(HomePage_GallerySlider, null), /*#__PURE__*/react.createElement(HomePage_Influence, null), /*#__PURE__*/react.createElement(HomePage_Quote, null), /*#__PURE__*/react.createElement(HomePage_Participants, null), /*#__PURE__*/react.createElement(HomePage_Description, null), /*#__PURE__*/react.createElement(HomePage_Media, null));
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(HomePage_Intro, null), /*#__PURE__*/react.createElement(HomePage_About, null), /*#__PURE__*/react.createElement(HomePage_ArtTypes, null), /*#__PURE__*/react.createElement(HomePage_GallerySlider, null), /*#__PURE__*/react.createElement(HomePage_Influence, null), /*#__PURE__*/react.createElement(HomePage_Quote, null), /*#__PURE__*/react.createElement(HomePage_Participants, null), /*#__PURE__*/react.createElement(HomePage_Description, null), /*#__PURE__*/react.createElement(HomePage_Schedule, null), /*#__PURE__*/react.createElement(HomePage_Media, null));
 };
 /* harmony default export */ var pages_HomePage = (HomePage);
 ;// CONCATENATED MODULE: ./src/assets/img/notes.png
@@ -15073,7 +15179,7 @@ var navLinks = [{
 }, {
   id: 3,
   title: "Программа",
-  href: "https://vk.com/wall-34825534_20992"
+  sectionHref: "schedule"
 }, {
   id: 4,
   title: "Участники",
