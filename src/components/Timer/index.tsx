@@ -45,6 +45,7 @@ const Timer: FC<Props> = ({
                         labelClassName={labelCountClassName}
                         label={countLabel}
                         count={number}
+                        key={countLabel}
                     />
                 ))}
             </div>

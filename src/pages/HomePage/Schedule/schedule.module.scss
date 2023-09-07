@@ -1,0 +1,88 @@
+@import "../../../assets/styles/vars.scss";
+
+.section {
+    padding: 30px 0;
+    @include mobile {
+        padding: 20px 0;
+    }
+}
+
+.title {
+    margin-bottom: 20px;
+    @include mobile {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+}
+
+.link {
+    color: $lightBlue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 19px;
+    @include mobileMiddle {
+        font-size: 18px;
+    }
+}
+
+.subtitle {
+    color: $black;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 20px;
+    @include mobile {
+        font-size: 23px;
+    }
+}
+
+.schedule {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+        @include mobileMiddle {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.date {
+    font-size: 22px;
+    color: $black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    @include mobileMiddle {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+.event {
+    padding: 0 40px;
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    @include mobile {
+        padding: 0 0 0 20px;
+    }
+    @include mobileSmall {
+        padding: 0;
+    }
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        color: $purple;
+    }
+    p {
+        display: inline;
+        @include mobileMiddle {
+            font-size: 16px;
+        }
+    }
+}
+
+.jazzTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: $black;
+    margin-bottom: 15px;
+    color: $purple;
+}

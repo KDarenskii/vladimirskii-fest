@@ -21,8 +21,7 @@ const ArtTypes: FC = () => {
         <section className={styles.section}>
             <Container>
                 <SectionTitle className={styles.title} variant="light">
-                    Фестиваль предлагает широкий спектр художественных форм и
-                    развлечений:
+                    На фестивале представлены все формы культуры и искусства
                 </SectionTitle>
                 <ul className={styles.artList}>
                     {artTypesList.map((art) => (

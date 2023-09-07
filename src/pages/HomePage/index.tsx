@@ -9,6 +9,7 @@ import Intro from "./Intro";
 import Media from "./Media";
 import Participants from "./Participants";
 import Quote from "./Quote";
+import Schedule from "./Schedule";
 
 const HomePage: React.FC = () => {
     return (
@@ -21,6 +22,7 @@ const HomePage: React.FC = () => {
             <Quote />
             <Participants />
             <Description />
+            <Schedule />
             <Media />
         </>
     );

@@ -3,7 +3,6 @@ import React, { FC } from "react";
 import Container from "components/Container";
 import Paragraph from "components/Paragraph";
 import SectionTitle from "components/SectionTitle";
-import TextHighlight from "components/TextHighlight";
 
 import styles from "./influence.module.scss";
 
@@ -18,31 +17,12 @@ const Influence: FC = () => {
                 </SectionTitle>
                 <div className={styles.description}>
                     <Paragraph className={styles.text}>
-                        <TextHighlight>&quot;Владимирский</TextHighlight>{" "}
-                        <TextHighlight variant="danger">Live</TextHighlight>
-                        &quot;{" "}
-                        <TextHighlight>
-                            играет значительную роль
-                        </TextHighlight>{" "}
-                        в развитии культурной сферы города Владимир и
-                        привлечении внимания к творческому потенциалу региона.
-                    </Paragraph>
-                    <Paragraph className={styles.text}>
-                        Фестиваль{" "}
-                        <TextHighlight>
-                            продолжает развиваться и привлекать все больше
-                            участников
-                        </TextHighlight>{" "}
-                        — в 2023 году в мероприятиях участвует больше 30
-                        культурных организаций.
-                    </Paragraph>
-                    <Paragraph className={styles.text}>
-                        Организаторы фестиваля{" "}
-                        <TextHighlight>
-                            стремятся укрепить сотрудничество
-                        </TextHighlight>{" "}
-                        с другими культурными событиями и фестивалями в России и
-                        за ее пределами.
+                        Фестиваль дает возможность прочувствовать креативное
+                        пространство, вдохновленное архитектурой и жителями этих
+                        мест, проникнуться особым духом петербургского
+                        свободного творчества и осознать себя причастным к
+                        уникальной культуре округа и города через местное
+                        культурное наследие.
                     </Paragraph>
                 </div>
             </Container>

@@ -19,7 +19,7 @@ export const navLinks: INavLink[] = [
     {
         id: 3,
         title: "Программа",
-        href: "https://vk.com/wall-34825534_20992",
+        sectionHref: "schedule",
     },
     {
         id: 4,

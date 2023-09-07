@@ -42,7 +42,7 @@
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
-    background-color: $purple;
+    background-color: $blue;
     @include pc {
         &:last-child {
             grid-row: 3;
@@ -68,9 +68,12 @@
         font-size: 25px;
     }
     @include mobile {
-        font-size: 22px;
+        font-size: 20px;
     }
     @include mobileMiddle {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    @include mobileSmall {
+        font-size: 16px;
     }
 }

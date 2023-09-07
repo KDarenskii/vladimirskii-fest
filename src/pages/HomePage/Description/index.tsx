@@ -4,8 +4,6 @@ import Container from "components/Container";
 import LazyImage from "components/LazyImage";
 import Paragraph from "components/Paragraph";
 
-import useMatchMedia from "hooks/useMatchMedia";
-
 import imagePlaceholderSrc1 from "assets/img/description/photo-1-small.jpg";
 import imageSrc1 from "assets/img/description/photo-1.jpg";
 import imagePlaceholderSrc2 from "assets/img/description/photo-2-small.jpg";
@@ -30,29 +28,18 @@ const Description: FC = () => {
 export default Description;
 
 function FirstBlock() {
-    const { isMobileSmall } = useMatchMedia();
-
-    const text = isMobileSmall ? (
-        <Paragraph variant="light" className={styles.text}>
-            Фестиваль назвали добрососедским – гости и участники фестиваля
-            объединены культурным Владимирским округом.
-        </Paragraph>
-    ) : (
-        <Paragraph variant="light" className={styles.text}>
-            Фестиваль назвали добрососедским – гости и участники фестиваля
-            объединены культурным Владимирским округом. Гости фестиваля
-            принимают участие в экскурсиях, квестах, спектаклях, лекциях,
-            мастер-классах, кинопоказах в течение 3 дней бесплатно: в первые 2
-            дня фестиваля мероприятия проходят по разным локациям участников –
-            театрам, галереям, библиотекам, музеям, в заключительный день
-            фестиваля проходит большой Гала-концерт в Джазовом сквере на
-            Загородном проспекте.
-        </Paragraph>
-    );
-
     return (
         <>
-            <div className={styles.textWrapper}>{text}</div>
+            <div className={styles.textWrapper}>
+                <Paragraph variant="light" className={styles.text}>
+                    Первые 2 дня – 15 и 16 сентября – мероприятия (экскурсии,
+                    квесты, спектакли, лекции, мастер-классы, концерты,
+                    творческие встречи) проходят в локациях участников на
+                    территории округа. 17 сентября - в заключительный день на
+                    территории округа состоится Гала-концерт участников
+                    фестиваля и приглашенных петербургских музыкантов.
+                </Paragraph>
+            </div>
             <LazyImage
                 src={imageSrc1}
                 placeholderSrc={imagePlaceholderSrc1}
@@ -65,23 +52,6 @@ function FirstBlock() {
 }
 
 function SecondBlock() {
-    const { isMobileSmall } = useMatchMedia();
-
-    const text = isMobileSmall ? (
-        <Paragraph variant="light" className={styles.text}>
-            Фестиваль основан на идее популяризации и поддержки местных талантов
-            и развития культурного потенциала Владимирского округа.
-        </Paragraph>
-    ) : (
-        <Paragraph variant="light" className={styles.text}>
-            Фестиваль основан на идее популяризации и поддержки местных талантов
-            и развития культурного потенциала Владимирского округа. Он собирает
-            все творческие организации округа и позволяет зрителям получить
-            доступ ко всем видам искусства – театру, музеям, мастер-классам,
-            музыке - бесплатно. Фестиваль – это возможность для жителей округа
-            напиться культурой, не выходя за пределы округа.
-        </Paragraph>
-    );
     return (
         <>
             <LazyImage
@@ -91,7 +61,14 @@ function SecondBlock() {
                 height={470}
                 alt=""
             />
-            <div className={styles.textWrapper}>{text}</div>
+            <div className={styles.textWrapper}>
+                <Paragraph variant="light" className={styles.text}>
+                    Специально для фестивальной программы участники готовят
+                    особые мероприятия. Зрители увидят уникальные творческие
+                    проекты, постановки, экскурсии и концерты, которые
+                    невозможно увидеть в другой день.
+                </Paragraph>
+            </div>
         </>
     );
 }
