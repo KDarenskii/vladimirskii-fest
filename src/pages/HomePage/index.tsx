@@ -16,10 +16,10 @@ const HomePage: React.FC = () => {
         <>
             <Intro />
             <About />
-            <ArtTypes />
+            <Quote />
             <GallerySlider />
             <Influence />
-            <Quote />
+            <ArtTypes />
             <Participants />
             <Description />
             <Schedule />

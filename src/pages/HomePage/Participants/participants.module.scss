@@ -1,9 +1,9 @@
 @import "../../../assets/styles/vars.scss";
 
 .section {
-    padding: 20px 0 10px;
+    padding: 45px 0 10px;
     @include mobile {
-        padding: 15px 0 5px;
+        padding: 25px 0 5px;
     }
 }
 

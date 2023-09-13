@@ -1,10 +1,15 @@
-import React, { FC } from "react";
+import React, { FC, Fragment } from "react";
 
 import Container from "components/Container";
 import Paragraph from "components/Paragraph";
 import SectionTitle from "components/SectionTitle";
 
-import { ISchedule, concertParticipants, scheduleData } from "./schedule.data";
+import {
+    ISchedule,
+    concertParticipants,
+    scheduleData,
+    tents,
+} from "./schedule.data";
 import styles from "./schedule.module.scss";
 
 const Schedule: FC = () => {
@@ -14,12 +19,10 @@ const Schedule: FC = () => {
                 <SectionTitle className={styles.title}>
                     Программа фестиваля
                 </SectionTitle>
-                <h4 className={styles.subtitle}>
-                    Наиболее яркие и значимые события фестиваля 2023 года:
-                </h4>
                 {scheduleData.map((schedule) => (
                     <Events key={schedule.key} schedule={schedule} />
                 ))}
+                <Tents />
                 <ConcertSchedule />
                 <Paragraph>
                     <a
@@ -56,13 +59,44 @@ function Events({ schedule }: { schedule: ISchedule }) {
     );
 }
 
+function Tents() {
+    return (
+        <ul className={styles.tents}>
+            {tents.map(({ name, events: tentEvents, key }) => (
+                <li className={styles.tent} key={key}>
+                    <h6>{name}</h6>
+                    {tentEvents.map(
+                        ({ description, time, key: eventKey, subEvents }) => (
+                            <div className={styles.event} key={eventKey}>
+                                <span>{time} — </span>
+                                {description && (
+                                    <Paragraph>{description}</Paragraph>
+                                )}
+                                {subEvents?.map((subEvent) => (
+                                    <Fragment key={subEvent}>
+                                        <Paragraph className={styles.subEvent}>
+                                            {subEvent}
+                                        </Paragraph>
+                                        <br />
+                                        <br />
+                                    </Fragment>
+                                ))}
+                            </div>
+                        ),
+                    )}
+                </li>
+            ))}
+        </ul>
+    );
+}
+
 function ConcertSchedule() {
     return (
         <div className={styles.schedule}>
-            <h5 className={styles.date}>17 сентября, воскресенье</h5>
-            <h6 className={styles.jazzTitle}>
-                Гала-концерт фестиваля в Джазовом сквере:
-            </h6>
+            <div className={styles.event}>
+                <span>16:00</span>{" "}
+                <Paragraph>— Гала-концерт в джазовом сквере</Paragraph>
+            </div>
             <ul className={styles.jazzList}>
                 {concertParticipants.map(({ key, name }) => (
                     <li key={key} className={styles.event}>

@@ -25,22 +25,9 @@
     }
 }
 
-.subtitle {
-    color: $black;
-    font-weight: 600;
-    font-size: 26px;
-    margin-bottom: 20px;
-    @include mobile {
-        font-size: 23px;
-    }
-}
-
 .schedule {
     &:not(:last-child) {
-        margin-bottom: 30px;
-        @include mobileMiddle {
-            margin-bottom: 24px;
-        }
+        margin-bottom: 15px;
     }
 }
 
@@ -79,10 +66,19 @@
     }
 }
 
-.jazzTitle {
-    font-size: 18px;
-    font-weight: 600;
-    color: $black;
-    margin-bottom: 15px;
-    color: $purple;
+.tentsList {
+    margin-bottom: 30px;
+}
+
+.tent {
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    h6 {
+        font-size: 19px;
+        font-weight: 600;
+        color: $black;
+        margin-bottom: 15px;
+        color: $purple;
+    }
 }
